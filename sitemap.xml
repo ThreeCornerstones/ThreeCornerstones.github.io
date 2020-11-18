@@ -2,21 +2,63 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://threecornerstones.github.io/hello-world.html</loc>
+    
+    <lastmod>2020-11-18</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://threecornerstones.github.io/hexo-high-play-seo.html</loc>
+    
+    <lastmod>2020-11-18</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://threecornerstones.github.io/college/%E5%A4%A7%E5%AD%A6%E6%9C%89%E6%84%8F%E6%80%9D%E7%9A%84%E5%86%9B%E8%AE%AD.html</loc>
+    
+    <lastmod>2020-11-18</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://threecornerstones.github.io/college/%E9%AB%98%E8%80%83%E7%BB%93%E6%9D%9F%E5%90%8E%E5%B9%B2%E7%82%B9%E5%95%A5.html</loc>
+    
+    <lastmod>2020-11-18</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://threecornerstones.github.io/college/%E4%B8%8A%E5%A4%A7%E5%AD%A6%E6%91%86%E6%AD%A3%E5%BF%83%E6%80%81.html</loc>
+    
+    <lastmod>2020-11-18</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://threecornerstones.github.io/college/%E4%B8%8A%E5%A4%A7%E5%AD%A6%E5%89%8D%E8%A6%81%E7%9F%A5%E9%81%93%E4%BB%80%E4%B9%88.html</loc>
+    
+    <lastmod>2020-11-18</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://threecornerstones.github.io/college/%E4%B8%8A%E5%A4%A7%E5%AD%A6%E6%88%91%E7%9A%84%E6%88%B7%E5%8F%A3%E6%80%8E%E4%B9%88%E5%8A%9E.html</loc>
+    
+    <lastmod>2020-11-18</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://threecornerstones.github.io/about/index.html</loc>
+    
+    <lastmod>2020-11-18</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://threecornerstones.github.io/baidu_verify_code-42fMxbMiHJ.html</loc>
-    
-    <lastmod>2020-11-18</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://threecornerstones.github.io/2020/11/18/hexo-high-play-seo/</loc>
-    
-    <lastmod>2020-11-18</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://threecornerstones.github.io/2020/11/18/hello-world/</loc>
     
     <lastmod>2020-11-18</lastmod>
     
@@ -31,13 +73,6 @@
   
   <url>
     <loc>https://threecornerstones.github.io/404.html</loc>
-    
-    <lastmod>2020-11-18</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://threecornerstones.github.io/about/index.html</loc>
     
     <lastmod>2020-11-18</lastmod>
     
@@ -80,10 +115,59 @@
     <priority>0.6</priority>
   </url>
   
+  <url>
+    <loc>https://threecornerstones.github.io/tags/%E5%A4%A7%E5%AD%A6/</loc>
+    <lastmod>2020-11-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://threecornerstones.github.io/tags/%E5%B8%B8%E8%AF%86/</loc>
+    <lastmod>2020-11-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://threecornerstones.github.io/tags/%E5%BF%83%E6%80%81/</loc>
+    <lastmod>2020-11-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://threecornerstones.github.io/tags/%E6%88%B7%E5%8F%A3/</loc>
+    <lastmod>2020-11-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://threecornerstones.github.io/tags/%E5%86%9B%E8%AE%AD/</loc>
+    <lastmod>2020-11-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://threecornerstones.github.io/tags/%E9%AB%98%E8%80%83/</loc>
+    <lastmod>2020-11-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
 
   
   <url>
     <loc>https://threecornerstones.github.io/categories/tools/</loc>
+    <lastmod>2020-11-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://threecornerstones.github.io/categories/%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%B4%BB/</loc>
     <lastmod>2020-11-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
