@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>三大基石</title>
+  <icon>https://threecornerstones.github.io/icon.png</icon>
+  
+  <link href="https://threecornerstones.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://threecornerstones.github.io/"/>
+  <updated>2020-11-20T03:29:08.336Z</updated>
+  <id>https://threecornerstones.github.io/</id>
+  
+  <author>
+    <name>gege</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>google-search-way</title>
+    <link href="https://threecornerstones.github.io/2799856088/"/>
+    <id>https://threecornerstones.github.io/2799856088/</id>
+    <published>2020-11-19T10:01:10.000Z</published>
+    <updated>2020-11-20T03:29:08.336Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;google-site-search-网站文章搜索&quot;&gt;&lt;a href=&quot;#google-site-search-网站文章搜索&quot; class=&quot;headerlink&quot; title=&quot;google site search 网站文章搜索&quot;&gt;&lt;/a&gt;google</summary>
+        
+      
+    
+    
+    
+    <category term="tools" scheme="https://threecornerstones.github.io/categories/tools/"/>
+    
+    
+    <category term="tools" scheme="https://threecornerstones.github.io/tags/tools/"/>
+    
+    <category term="google" scheme="https://threecornerstones.github.io/tags/google/"/>
+    
+    <category term="search" scheme="https://threecornerstones.github.io/tags/search/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>估算那些事</title>
+    <link href="https://threecornerstones.github.io/3466919584/"/>
+    <id>https://threecornerstones.github.io/3466919584/</id>
+    <published>2020-11-19T10:01:10.000Z</published>
+    <updated>2020-11-20T03:55:46.493Z</updated>
+    
+    
+    <summary type="html">俗话说，行百里者半九十，意思是说一百里的路走了前面九十里其实只完成了一半，剩下的十里仍需要花很多的功夫。那么现实的生活和工作中，我们是不是也经常遇到这样的情况呢？回想一下，会不会有这样一种经历：打扫卫生，让房子从凌乱到整洁只需要20%的努力，要让房子从整洁到一尘不染却要花费80%的努力。那么我们就要审视一下，在精力有限的情况下，从整洁到一尘不染有没有必要？房子从凌乱到整洁是不是就已经足够了？我想没有洁癖的一般人，就如我，会觉得后面那个过程的性价比实在太低，完全没有必要。</summary>
+    
+    
+    
+    <category term="项目管理" scheme="https://threecornerstones.github.io/categories/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/"/>
+    
+    
+    <category term="项目" scheme="https://threecornerstones.github.io/tags/%E9%A1%B9%E7%9B%AE/"/>
+    
+    <category term="管理" scheme="https://threecornerstones.github.io/tags/%E7%AE%A1%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>工作时间打扑克</title>
+    <link href="https://threecornerstones.github.io/2607925454/"/>
+    <id>https://threecornerstones.github.io/2607925454/</id>
+    <published>2020-11-19T10:01:10.000Z</published>
+    <updated>2020-11-20T03:54:44.533Z</updated>
+    
+    
+    <summary type="html">估算在项目管理的知识技能中占据了很重要的一席。本文将从估算带来的价值以及扑克估算的诸多好处来向读者展开介绍。
+不知道是不是因为勾起了大家的牌瘾，最近一阵扑克估算很是火了一把，在几个项目尝试后很快蔓延开来，很多项目团队都跃跃欲试。
+尝试的过程中难免产生一些困惑，在这里做个澄清，把我实践下来所理解的扑克估算的方方面面跟大家一一道来。
+在开始之前，首先需要澄清的是，在某种程度上，估算其实是在预测未来！预测未来是件非常难的事情，我们看看天气预报，就知道人类在这项工作上有多么的不靠谱了。</summary>
+    
+    
+    
+    <category term="项目管理" scheme="https://threecornerstones.github.io/categories/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/"/>
+    
+    
+    <category term="项目" scheme="https://threecornerstones.github.io/tags/%E9%A1%B9%E7%9B%AE/"/>
+    
+    <category term="管理" scheme="https://threecornerstones.github.io/tags/%E7%AE%A1%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>给项目经理新手的五个建议</title>
+    <link href="https://threecornerstones.github.io/1951394389/"/>
+    <id>https://threecornerstones.github.io/1951394389/</id>
+    <published>2020-11-19T10:01:10.000Z</published>
+    <updated>2020-11-20T03:29:08.361Z</updated>
+    
+    
+    <summary type="html">初为项目经理，一开始很难抓到重点。我们资深的项目经理从实战经验中提炼出的几点实用建议希望能为你拨开迷雾。
+我真正从事项目管理的时间并不算长，可掐指算算，经历的大大小小的项目也不少了。作为过来人，回想当时的自己，在摸索的过程中走过一些弯路，也幸运地得到过很多前辈的帮助和指点。以下浓缩的五条建议，有经验教训，也有心得体会，希望能给刚上路的项目经理（Project Manager，PM）新手们一些帮助。</summary>
+    
+    
+    
+    <category term="项目管理" scheme="https://threecornerstones.github.io/categories/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/"/>
+    
+    
+    <category term="项目" scheme="https://threecornerstones.github.io/tags/%E9%A1%B9%E7%9B%AE/"/>
+    
+    <category term="管理" scheme="https://threecornerstones.github.io/tags/%E7%AE%A1%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>项目管理境界</title>
+    <link href="https://threecornerstones.github.io/3582388260/"/>
+    <id>https://threecornerstones.github.io/3582388260/</id>
+    <published>2020-11-19T10:01:10.000Z</published>
+    <updated>2020-11-20T03:56:57.902Z</updated>
+    
+    
+    <summary type="html">项目管理工作入门易，但出色不易。成为优秀的项目经理是否有规律可循？本文从三重境界说明项目管理循序渐进之道：做项目，懂业务，懂人。做项目是让项目进行下去，懂业务是知其然知其所以然，懂人是能够在利益相关人满意的基础上交付项目。
+上周五和一位刚刚开始做项目管理的新同事聊天，就如何开始项目管理生涯、如何做项目计划、如何引导项目站会、如何克服自我简单粗暴强势的管理风格等问题进行沟通和交流，不知不觉间一两个小时就过去了，聊到了不少建议和我的一些个人经验。面对面的沟通往往口慢而思维快，可能无法全面而系统地表达。趁着周末在家闲来无事，和着江南烟雨时节的安静，回顾自己过去近10年的项目管理经历，概括出项目管理的三重境界：做项目，懂业务，懂人。不同的人、不同的经历、不同的公司、不同的行业对项目管理的境界都会有不一样的理解和看法，这些仅仅是我个人粗浅的总结，欢迎大家拍砖、反馈、交流。</summary>
+    
+    
+    
+    <category term="项目管理" scheme="https://threecornerstones.github.io/categories/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/"/>
+    
+    
+    <category term="项目" scheme="https://threecornerstones.github.io/tags/%E9%A1%B9%E7%9B%AE/"/>
+    
+    <category term="管理" scheme="https://threecornerstones.github.io/tags/%E7%AE%A1%E7%90%86/"/>
+    
+    <category term="项目管理" scheme="https://threecornerstones.github.io/tags/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于社交观念</title>
+    <link href="https://threecornerstones.github.io/1345586591/"/>
+    <id>https://threecornerstones.github.io/1345586591/</id>
+    <published>2020-11-18T13:48:07.000Z</published>
+    <updated>2020-11-20T03:29:08.411Z</updated>
+    
+    
+    <summary type="html">来大学之前，一定有不少人跟你说，人脉很重要，到了大学之后一定要广交朋友；许多书上、网上帖子里也有类似观点。你肯定心中会有所疑问：学习重要，还是经营人脉重要？那他们说的到底对不对呢？只能说是对了一小部分，最根本的并没有涉及到。</summary>
+    
+    
+    
+    <category term="大学生活" scheme="https://threecornerstones.github.io/categories/%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%B4%BB/"/>
+    
+    
+    <category term="大学" scheme="https://threecornerstones.github.io/tags/%E5%A4%A7%E5%AD%A6/"/>
+    
+    <category term="社交观念" scheme="https://threecornerstones.github.io/tags/%E7%A4%BE%E4%BA%A4%E8%A7%82%E5%BF%B5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于在线教育品牌</title>
+    <link href="https://threecornerstones.github.io/3768944841/"/>
+    <id>https://threecornerstones.github.io/3768944841/</id>
+    <published>2020-11-18T13:48:07.000Z</published>
+    <updated>2020-11-20T03:29:08.410Z</updated>
+    
+    
+    <summary type="html">（一）基本介绍
+网易是互联网大佬中在线教育做的最好的一家，网易的在线教育分为网易公开课和网易云课堂，网易云课堂又引进了“中国大学MOOC”板块，做的很好，地址：网易云课堂。</summary>
+    
+    
+    
+    <category term="大学生活" scheme="https://threecornerstones.github.io/categories/%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%B4%BB/"/>
+    
+    
+    <category term="大学" scheme="https://threecornerstones.github.io/tags/%E5%A4%A7%E5%AD%A6/"/>
+    
+    <category term="教育品牌" scheme="https://threecornerstones.github.io/tags/%E6%95%99%E8%82%B2%E5%93%81%E7%89%8C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于TED大会</title>
+    <link href="https://threecornerstones.github.io/3771463359/"/>
+    <id>https://threecornerstones.github.io/3771463359/</id>
+    <published>2020-11-18T13:48:07.000Z</published>
+    <updated>2020-11-20T03:29:08.409Z</updated>
+    
+    
+    <summary type="html">TED（指technology, entertainment, design在英语中的缩写，即技术、娱乐、设计）是美国的一家私有非营利机构，该机构以它组织的TED大会著称。TED诞生于1984年，其发起人是里查德•沃曼。2002年起，克里斯•安德森接管TED，创立了种子基金会（The Sapling Foundation）</summary>
+    
+    
+    
+    <category term="大学生活" scheme="https://threecornerstones.github.io/categories/%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%B4%BB/"/>
+    
+    
+    <category term="大学" scheme="https://threecornerstones.github.io/tags/%E5%A4%A7%E5%AD%A6/"/>
+    
+    <category term="TED" scheme="https://threecornerstones.github.io/tags/TED/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>大学入党</title>
+    <link href="https://threecornerstones.github.io/2020401827/"/>
+    <id>https://threecornerstones.github.io/2020401827/</id>
+    <published>2020-11-18T13:48:07.000Z</published>
+    <updated>2020-11-20T03:29:08.365Z</updated>
+    
+    
+    <summary type="html">先说入党的积极意义：考公务员有优势；考选调生有优势；如果你是农村户口，村里逢年过节党员还有福利可以领取；其他情况则是个加分项，不过对于志在出国留学甚至移民的同学们来说，就没必要争取入党了。入党从本质上来说是一件非常严肃的事情，党员的潜在意义是“你是中国执政党的组成人员”，你必须身先士卒，起带头、模范和表率作用。所以入党积极意义的理由就很明显了：公务员和选调生都是国家的工作人员，自身素质必须过硬，政治理想必须坚定。</summary>
+    
+    
+    
+    <category term="大学生活" scheme="https://threecornerstones.github.io/categories/%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%B4%BB/"/>
+    
+    
+    <category term="大学" scheme="https://threecornerstones.github.io/tags/%E5%A4%A7%E5%AD%A6/"/>
+    
+    <category term="入党" scheme="https://threecornerstones.github.io/tags/%E5%85%A5%E5%85%9A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>大学学生会</title>
+    <link href="https://threecornerstones.github.io/3332368809/"/>
+    <id>https://threecornerstones.github.io/3332368809/</id>
+    <published>2020-11-18T13:48:07.000Z</published>
+    <updated>2020-11-20T03:29:08.367Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;学生会有两类：院（系）学生会和校学生会。校学生会是全校同学的学生会，竞争相对会更激烈；院（系）学生会直接和院、系领导打交道，对你今后的大学生活帮助会很大。如果你有当校学生会主席的计划可以先去校学生会锻炼下，一旦胜任对于你是一个很好的磨炼，认识的人会很多，跟各个学校之间交流机</summary>
+        
+      
+    
+    
+    
+    <category term="大学生活" scheme="https://threecornerstones.github.io/categories/%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%B4%BB/"/>
+    
+    
+    <category term="大学" scheme="https://threecornerstones.github.io/tags/%E5%A4%A7%E5%AD%A6/"/>
+    
+    <category term="学生会" scheme="https://threecornerstones.github.io/tags/%E5%AD%A6%E7%94%9F%E4%BC%9A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>大学班委</title>
+    <link href="https://threecornerstones.github.io/4205451457/"/>
+    <id>https://threecornerstones.github.io/4205451457/</id>
+    <published>2020-11-18T13:48:07.000Z</published>
+    <updated>2020-11-20T03:29:08.369Z</updated>
+    
+    
+    <summary type="html">班委是大学中比较重要的一个角色，理由：1.会锻炼你的管理能力与沟通能力；2.在综合素质测评或者保研中是一个加分项；3.五四评优的“优秀团干部”评选只能在“团支部班委构成”中选；4.担任班委的经历对于你毕业之时考取选调生来说基本上是一个必备条件，并且对于考取公务员、求职则是一个加分项。</summary>
+    
+    
+    
+    <category term="大学生活" scheme="https://threecornerstones.github.io/categories/%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%B4%BB/"/>
+    
+    
+    <category term="大学" scheme="https://threecornerstones.github.io/tags/%E5%A4%A7%E5%AD%A6/"/>
+    
+    <category term="班委" scheme="https://threecornerstones.github.io/tags/%E7%8F%AD%E5%A7%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>大学老师</title>
+    <link href="https://threecornerstones.github.io/3121840018/"/>
+    <id>https://threecornerstones.github.io/3121840018/</id>
+    <published>2020-11-18T13:48:07.000Z</published>
+    <updated>2020-11-20T03:29:08.371Z</updated>
+    
+    
+    <summary type="html">代课老师一般只带你一学期的课程，不过大学的英语老师还有可能带课四个学期。代课老师一般会在第一节课给出他/她的联系方式，电话或者邮箱。大学老师手中掌握着丰富的资源：各科的科学学习方式、专业浏览网站、该学科的前沿问题、拥有国内本专业其他老师的人脉关系。和老师相处必须牢记的一个原则：尊师重道。尊师表现：上课前擦干净黑板、积极回答老师的问题、认真完成作业。虽然这些都是陈芝麻烂谷子了，但熟知不代表能做到，做到不代表能坚持做下来。师生之间本该互相尊重，老师能多角度的了解你是一个怎样的人，因为他/她在意你。重道表现：敢于和老师交流学术问题，向老师提问，质疑老师。好老师喜欢问问题的学生，所以你不要担心“问题多了老师会烦”诸如此类的问题。</summary>
+    
+    
+    
+    <category term="大学生活" scheme="https://threecornerstones.github.io/categories/%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%B4%BB/"/>
+    
+    
+    <category term="大学" scheme="https://threecornerstones.github.io/tags/%E5%A4%A7%E5%AD%A6/"/>
+    
+    <category term="老师" scheme="https://threecornerstones.github.io/tags/%E8%80%81%E5%B8%88/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>大学辅导员</title>
+    <link href="https://threecornerstones.github.io/3723059855/"/>
+    <id>https://threecornerstones.github.io/3723059855/</id>
+    <published>2020-11-18T13:48:07.000Z</published>
+    <updated>2020-11-20T03:29:08.372Z</updated>
+    
+    
+    <summary type="html">大学中的辅导员和高中时班主任的角色大致相同，唯一不同的是辅导员不会给你上专业必修课，也不可能教授大家“形势与政策”这门课程。但是辅导员手中掌握着你大学四年评优和入党的几乎全部权力。
+辅导员，可以说是大学四年所有接触的老师中和你相处时间最长的，因为任课老师可能只带你一学期的课程，而辅导员将要陪伴你四年。</summary>
+    
+    
+    
+    <category term="大学生活" scheme="https://threecornerstones.github.io/categories/%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%B4%BB/"/>
+    
+    
+    <category term="大学" scheme="https://threecornerstones.github.io/tags/%E5%A4%A7%E5%AD%A6/"/>
+    
+    <category term="辅导员" scheme="https://threecornerstones.github.io/tags/%E8%BE%85%E5%AF%BC%E5%91%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于亲情</title>
+    <link href="https://threecornerstones.github.io/1889226578/"/>
+    <id>https://threecornerstones.github.io/1889226578/</id>
+    <published>2020-11-18T13:48:07.000Z</published>
+    <updated>2020-11-20T03:29:08.375Z</updated>
+    
+    
+    <summary type="html">上大学之后和父母在一起的机会比以前少许多，如果你仔细算一下，会发现上大学的四年是你和父母在一起最方便、最长久的四年，毕业后你有了工作、家庭，陪父母的时间会变得更少。父母是你在这个世界上最靠谱、最坚实的后盾，永远不会抛弃你，时刻在远方牵挂着你。</summary>
+    
+    
+    
+    <category term="大学生活" scheme="https://threecornerstones.github.io/categories/%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%B4%BB/"/>
+    
+    
+    <category term="大学" scheme="https://threecornerstones.github.io/tags/%E5%A4%A7%E5%AD%A6/"/>
+    
+    <category term="亲情" scheme="https://threecornerstones.github.io/tags/%E4%BA%B2%E6%83%85/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于友情</title>
+    <link href="https://threecornerstones.github.io/1596267562/"/>
+    <id>https://threecornerstones.github.io/1596267562/</id>
+    <published>2020-11-18T13:48:07.000Z</published>
+    <updated>2020-11-20T03:29:08.376Z</updated>
+    
+    
+    <summary type="html">上大学之后，你会接触到各种各样的同学，一个班的、一个院系的、甚至外校的、同专业或者其他专业的。大学友情和高中友情有一个不同点：大学中的朋友可能会和你的志趣更相投，但不变的是你依然能在众多的同学中找到亲密无间的哥们或者闺蜜。大学里交的朋友可能是你以后事业中的伙伴，工作上的帮手。志趣相投、性情一路的朋友最靠谱，他会理解你、帮助你、甚至一起闯荡江湖等等。</summary>
+    
+    
+    
+    <category term="大学生活" scheme="https://threecornerstones.github.io/categories/%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%B4%BB/"/>
+    
+    
+    <category term="大学" scheme="https://threecornerstones.github.io/tags/%E5%A4%A7%E5%AD%A6/"/>
+    
+    <category term="友情" scheme="https://threecornerstones.github.io/tags/%E5%8F%8B%E6%83%85/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于情操品味</title>
+    <link href="https://threecornerstones.github.io/2116127152/"/>
+    <id>https://threecornerstones.github.io/2116127152/</id>
+    <published>2020-11-18T13:48:07.000Z</published>
+    <updated>2020-11-20T03:29:08.377Z</updated>
+    
+    
+    <summary type="html">上大学之后，不论男生或者女生，首先要明白的一点是：你已经成人了，应该逐渐有大人的样子，要注重衣着品位、讲话涵养、办事周到。穿衣打扮是一门很实用的学问，衣服不见得越贵越好，但你首先要会搭配，尤其是男生；女生不需要浓妆艳抹，但等到毕业之时起码应该学会给自己化个得体的淡妆，妆容体现着一个人的精气神，同时也是对别人的尊重。讲话是一门技巧性很强的学问，诸葛亮舌战群儒的故事都听说过，要学会把自己想要表达的内容说得漂亮。会表达的人不是天生就具备这种能力，而是在后天实践中逐渐锻炼出来的。</summary>
+    
+    
+    
+    <category term="大学生活" scheme="https://threecornerstones.github.io/categories/%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%B4%BB/"/>
+    
+    
+    <category term="大学" scheme="https://threecornerstones.github.io/tags/%E5%A4%A7%E5%AD%A6/"/>
+    
+    <category term="情操品味" scheme="https://threecornerstones.github.io/tags/%E6%83%85%E6%93%8D%E5%93%81%E5%91%B3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>大学爱情</title>
+    <link href="https://threecornerstones.github.io/3411760123/"/>
+    <id>https://threecornerstones.github.io/3411760123/</id>
+    <published>2020-11-18T13:48:07.000Z</published>
+    <updated>2020-11-20T03:29:08.380Z</updated>
+    
+    
+    <summary type="html">恋爱是大学选修课，不一定人人都要谈恋爱，但至少要经历爱情萌芽，思考爱情这个话题，哪怕有过暗恋也好。如果依旧如高中般只读书，不恋爱，以“恋爱会耽误学业”诸如此类理由为借口，那只能说明你的平衡能力比较差，或者根本不会谈恋爱、不懂恋爱，一段好的恋情会促进双方的进步。</summary>
+    
+    
+    
+    <category term="大学生活" scheme="https://threecornerstones.github.io/categories/%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%B4%BB/"/>
+    
+    
+    <category term="大学" scheme="https://threecornerstones.github.io/tags/%E5%A4%A7%E5%AD%A6/"/>
+    
+    <category term="爱情" scheme="https://threecornerstones.github.io/tags/%E7%88%B1%E6%83%85/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>大学兼职</title>
+    <link href="https://threecornerstones.github.io/3441236400/"/>
+    <id>https://threecornerstones.github.io/3441236400/</id>
+    <published>2020-11-18T13:48:07.000Z</published>
+    <updated>2020-11-20T03:29:08.382Z</updated>
+    
+    
+    <summary type="html">满18岁之后你就是法律意义上的成人了，但独立生活的能力却不一定具备。大学是一个广阔的平台，在这里你就是主人。好多同学上大学之后，出于孝心和锻炼自己的想法，想通过兼职来减轻家里负担或者赚一些零用钱好攒钱旅行等等。但是，同样是兼职也有高低之分。这里的“高低”并不是指行业的贵贱，体面与否；而是指如果不智慧思考就胡乱找个兼职干，那就是低等的兼职。比如，你是学设计专业的，你却找了一个发传单的工作。再比如，你是学营销的，你却找了个家教的工作，虽然你在代理家教的过程中确实是用自己的知识赚钱，因为营销的本质是点对面，你这是在点对点的销售自己。评价兼职含金量高低的标准之一是：所做工作是否与你的专业相关；标准之二，所做工作是否能够弥补自己的缺点。比如，你性格比较内向，但是想变得稍微外向一些，敢于和陌生人交流，那选择去做销售或者发传单就是一个锻炼自己的机会。</summary>
+    
+    
+    
+    <category term="大学生活" scheme="https://threecornerstones.github.io/categories/%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%B4%BB/"/>
+    
+    
+    <category term="大学" scheme="https://threecornerstones.github.io/tags/%E5%A4%A7%E5%AD%A6/"/>
+    
+    <category term="兼职" scheme="https://threecornerstones.github.io/tags/%E5%85%BC%E8%81%8C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>大学宿舍</title>
+    <link href="https://threecornerstones.github.io/3481019284/"/>
+    <id>https://threecornerstones.github.io/3481019284/</id>
+    <published>2020-11-18T13:48:07.000Z</published>
+    <updated>2020-11-20T03:29:08.385Z</updated>
+    
+    
+    <summary type="html">有人说大学四年最要感谢的是宿管科阿姨，因为是她让你收获了一生中最珍贵的友谊，其实这句话并不绝对正确，绝对正确的前提是大学阶段你与最好的朋友生活在一个宿舍里。
+目前高校的宿舍安排一般会依据每个人入学时的学号将本省的安排一起，外省的安排一起，还有一种情况将本、外省的混合安排在一起。不论你所在宿舍是外省、本省或者混合宿舍，你首先要铭记一点：宿舍里的每个人将要陪你共度大学四年或者五年（医学等专业）的青春。此观念熟记于心并真正理解之后，还需要注意以下几点：</summary>
+    
+    
+    
+    <category term="大学生活" scheme="https://threecornerstones.github.io/categories/%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%B4%BB/"/>
+    
+    
+    <category term="大学" scheme="https://threecornerstones.github.io/tags/%E5%A4%A7%E5%AD%A6/"/>
+    
+    <category term="宿舍" scheme="https://threecornerstones.github.io/tags/%E5%AE%BF%E8%88%8D/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>大学学长学姐</title>
+    <link href="https://threecornerstones.github.io/2674924148/"/>
+    <id>https://threecornerstones.github.io/2674924148/</id>
+    <published>2020-11-18T13:48:07.000Z</published>
+    <updated>2020-11-20T03:29:08.384Z</updated>
+    
+    
+    <summary type="html">学长学姐毕竟至少比你多吃了一年学校的饭，知道得多，对学校的情况相对比较了解，某种意义上是你的指路人，他们不像老师，你不需要过多考虑尊师重道，架子小，好约，很少存在档期满了没空之类的问题。学长学姐可以作为你进入一个领域的推荐人，类似于现在找工作流行的“内部推荐机制”或者“绿色通道”。</summary>
+    
+    
+    
+    <category term="大学生活" scheme="https://threecornerstones.github.io/categories/%E5%A4%A7%E5%AD%A6%E7%94%9F%E6%B4%BB/"/>
+    
+    
+    <category term="大学" scheme="https://threecornerstones.github.io/tags/%E5%A4%A7%E5%AD%A6/"/>
+    
+    <category term="学长学姐" scheme="https://threecornerstones.github.io/tags/%E5%AD%A6%E9%95%BF%E5%AD%A6%E5%A7%90/"/>
+    
+  </entry>
+  
+</feed>

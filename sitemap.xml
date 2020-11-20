@@ -494,13 +494,6 @@
   </url>
   
   <url>
-    <loc>https://threecornerstones.github.io/tags/%E5%AD%A6%E9%95%BF%E5%AD%A6%E5%A7%90/</loc>
-    <lastmod>2020-11-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://threecornerstones.github.io/tags/%E5%AE%BF%E8%88%8D/</loc>
     <lastmod>2020-11-20</lastmod>
     <changefreq>daily</changefreq>
@@ -508,14 +501,14 @@
   </url>
   
   <url>
-    <loc>https://threecornerstones.github.io/tags/%E7%A4%BE%E5%9B%A2/</loc>
+    <loc>https://threecornerstones.github.io/tags/%E5%AD%A6%E9%95%BF%E5%AD%A6%E5%A7%90/</loc>
     <lastmod>2020-11-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://threecornerstones.github.io/tags/%E5%8A%9E%E5%85%AC/</loc>
+    <loc>https://threecornerstones.github.io/tags/%E9%A1%B9%E7%9B%AE/</loc>
     <lastmod>2020-11-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -529,7 +522,14 @@
   </url>
   
   <url>
-    <loc>https://threecornerstones.github.io/tags/%E7%BD%91%E7%BB%9C%E7%B4%A0%E5%85%BB/</loc>
+    <loc>https://threecornerstones.github.io/tags/%E7%A4%BE%E5%9B%A2/</loc>
+    <lastmod>2020-11-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://threecornerstones.github.io/tags/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/</loc>
     <lastmod>2020-11-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -592,6 +592,20 @@
   </url>
   
   <url>
+    <loc>https://threecornerstones.github.io/tags/%E5%8A%9E%E5%85%AC/</loc>
+    <lastmod>2020-11-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://threecornerstones.github.io/tags/%E7%BD%91%E7%BB%9C%E7%B4%A0%E5%85%BB/</loc>
+    <lastmod>2020-11-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://threecornerstones.github.io/tags/TED/</loc>
     <lastmod>2020-11-20</lastmod>
     <changefreq>daily</changefreq>
@@ -635,20 +649,6 @@
   
   <url>
     <loc>https://threecornerstones.github.io/tags/%E4%B8%80%E5%8F%A5%E8%AF%9D/</loc>
-    <lastmod>2020-11-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://threecornerstones.github.io/tags/%E9%A1%B9%E7%9B%AE/</loc>
-    <lastmod>2020-11-20</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://threecornerstones.github.io/tags/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/</loc>
     <lastmod>2020-11-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
