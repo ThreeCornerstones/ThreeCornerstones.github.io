@@ -21,7 +21,7 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"threecornerstones.github.io","root":"/","scheme":"Mist","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+    var CONFIG = {"hostname":"threecornerstones.github.io","root":"/","scheme":"Mist","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":"valine","storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
   <meta name="description" content="hexo seo 常见优化方法，hexo搭建指南，hexo操作手册，记录常见的问题，遇到就记录了下来，这不是重复记录，是自己的心得。">
@@ -32,7 +32,7 @@
 <meta property="og:description" content="hexo seo 常见优化方法，hexo搭建指南，hexo操作手册，记录常见的问题，遇到就记录了下来，这不是重复记录，是自己的心得。">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2020-11-18T04:35:53.000Z">
-<meta property="article:modified_time" content="2020-11-18T10:17:52.821Z">
+<meta property="article:modified_time" content="2020-11-20T03:08:52.156Z">
 <meta property="article:author" content="gege">
 <meta property="article:tag" content="tools">
 <meta property="article:tag" content="hexo">
@@ -198,10 +198,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2020-11-18 12:35:53 / 修改时间：18:17:52" itemprop="dateCreated datePublished" datetime="2020-11-18T12:35:53+08:00">2020-11-18</time>
+              <time title="创建时间：2020-11-18 12:35:53" itemprop="dateCreated datePublished" datetime="2020-11-18T12:35:53+08:00">2020-11-18</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-11-20 11:08:52" itemprop="dateModified" datetime="2020-11-20T11:08:52+08:00">2020-11-20</time>
+              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -218,14 +224,14 @@
                 <i class="far fa-file-word"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>4.4k</span>
+              <span>5.3k</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
                 <i class="far fa-clock"></i>
               </span>
                 <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>4 分钟</span>
+              <span>5 分钟</span>
             </span>
             <div class="post-description">hexo seo 常见优化方法，hexo搭建指南，hexo操作手册，记录常见的问题，遇到就记录了下来，这不是重复记录，是自己的心得。</div>
 
@@ -240,6 +246,17 @@
       
         <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">hexo new [layout] &lt;title&gt;</span><br><span class="line"></span><br><span class="line">hexo publish [layout] &lt;title&gt;</span><br><span class="line"></span><br><span class="line">git clone https:&#x2F;&#x2F;github.com&#x2F;theme-next&#x2F;hexo-theme-next themes&#x2F;next</span><br></pre></td></tr></table></figure>
 
+<h3 id="hexo-next-评论功能-gittalk"><a href="#hexo-next-评论功能-gittalk" class="headerlink" title="hexo next 评论功能 gittalk"></a>hexo next 评论功能 gittalk</h3><ul>
+<li><a target="_blank" rel="noopener" href="https://gitalk.github.io/">https://gitalk.github.io/</a></li>
+<li>要使用 Gitalk 需要先在 GitHub 上注册新应用，链接：<a target="_blank" rel="noopener" href="https://github.com/settings/applications/new">https://github.com/settings/applications/new</a></li>
+<li>url位置，都填你的网站<a href="https://threecornerstones.github.io/">https://threecornerstones.github.io/</a></li>
+<li>点击注册后，页面大致如下，其中Client ID和Client Secret在后面的配置中需要用到，也是应用访问你 Github 的凭证，到时复制粘贴即可：</li>
+<li>Next 主题中已经默认集成了gitalk，只需在\themes\next_config.yml锁定gitalk配置开启使用：</li>
+<li>重新部署博客，打开页面进入某一博客内容下，评论会出现在页面最下方<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">gitalk:</span><br><span class="line">  enable: true  #启用gitalk</span><br><span class="line">  github_id:   #github帐号 例：CodeHaotian</span><br><span class="line">  id: location.pathname  #此设置参照下文常见问题说明</span><br><span class="line">  repo:   #存放评论的仓库名称</span><br><span class="line">  client_id:   #application的id，即上文Client ID</span><br><span class="line">  client_secret:  #application的密码，即上文Client Secret</span><br><span class="line">  admin_user:  #页面显示联系**初始化评论 例：CodeHaotian</span><br><span class="line">  distraction_free_mode: true # Facebook-like distraction free mode</span><br><span class="line">  # Gitalk&#39;s display language depends on user&#39;s browser or system environment</span><br><span class="line">  # If you want everyone visiting your site to see a uniform language, you can set a force language value</span><br><span class="line">  # Available values: en | es-ES | fr | ru | zh-CN | zh-TW</span><br><span class="line">  language: zh-CN</span><br></pre></td></tr></table></figure>
+
+
+</li>
+</ul>
 <h3 id="hexo-about关于我"><a href="#hexo-about关于我" class="headerlink" title="hexo about关于我"></a>hexo about关于我</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page about</span><br></pre></td></tr></table></figure>
 
 <h3 id="hexo-tags标签"><a href="#hexo-tags标签" class="headerlink" title="hexo tags标签"></a>hexo tags标签</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page tags</span><br></pre></td></tr></table></figure>
@@ -370,6 +387,7 @@
 <li><a target="_blank" rel="noopener" href="https://www.mscoder.cn/post/other/cms/hexo/hexo-disable-scrollbar/">Hexo Next主题 禁用代码段.code pre滚动条以及自动换行</a></li>
 <li><a target="_blank" rel="noopener" href="https://hui-wang.info/2016/10/23/Hexo%E6%8F%92%E4%BB%B6%E4%B9%8B%E7%99%BE%E5%BA%A6%E4%B8%BB%E5%8A%A8%E6%8F%90%E4%BA%A4%E9%93%BE%E6%8E%A5/">Hexo插件之百度主动提交链接</a></li>
 <li><a target="_blank" rel="noopener" href="https://jingyan.baidu.com/article/a3761b2bf716631576f9aa3a.html">github博客hexo-next主题配置百度站点收录管理</a></li>
+<li>20201120<a target="_blank" rel="noopener" href="https://www.jianshu.com/p/02fc71f3633f">Hexo 集成 Gitalk 评论系统</a></li>
 </ul>
 
     </div>
@@ -394,7 +412,7 @@
       <i class="fa fa-chevron-left"></i> Hello World
     </a></div>
       <div class="post-nav-item">
-    <a href="/%E5%A4%A7%E5%AD%A6/%E4%B8%8A%E5%A4%A7%E5%AD%A6%E5%89%8D%E8%A6%81%E7%9F%A5%E9%81%93%E4%BB%80%E4%B9%88.html" rel="next" title="上大学要知道什么">
+    <a href="/%E8%AF%BB%E5%A5%BD%E4%B9%A6/%E6%80%8E%E4%B9%88%E8%AF%BB%E5%A4%A7%E5%AD%A6/%E4%B8%8A%E5%A4%A7%E5%AD%A6%E5%89%8D%E8%A6%81%E7%9F%A5%E9%81%93%E4%BB%80%E4%B9%88.html" rel="next" title="上大学要知道什么">
       上大学要知道什么 <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
@@ -409,6 +427,7 @@
 
           </div>
           
+    <div class="comments" id="gitalk-container"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -455,7 +474,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#hexo-about%E5%85%B3%E4%BA%8E%E6%88%91"><span class="nav-number">1.</span> <span class="nav-text">hexo about关于我</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#hexo-tags%E6%A0%87%E7%AD%BE"><span class="nav-number">2.</span> <span class="nav-text">hexo tags标签</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#hexo-categories%E5%88%86%E7%B1%BB"><span class="nav-number">3.</span> <span class="nav-text">hexo categories分类</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#hexo%E5%AD%97%E6%95%B0%E7%BB%9F%E8%AE%A1"><span class="nav-number">4.</span> <span class="nav-text">hexo字数统计</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#hexo%E9%83%A8%E7%BD%B2%E5%88%B0github"><span class="nav-number">5.</span> <span class="nav-text">hexo部署到github</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#github-ssh-key"><span class="nav-number">6.</span> <span class="nav-text">github ssh key</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E2%80%98fatal-unable-to-access%E2%80%99-error"><span class="nav-number">6.1.</span> <span class="nav-text">‘fatal: unable to access’ error</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#How-to-switch-git-user-at-terminal-%E5%88%87%E6%8D%A2git%E8%B4%A6%E6%88%B7"><span class="nav-number">6.2.</span> <span class="nav-text">How to switch git user at terminal?切换git账户</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#hexo-next-seo"><span class="nav-number">7.</span> <span class="nav-text">hexo next seo</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#seo-%E6%B7%BB%E5%8A%A0%E7%AB%99%E7%82%B9%E5%9C%B0%E5%9B%BE"><span class="nav-number">7.1.</span> <span class="nav-text">seo 添加站点地图</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#seo-%E6%B7%BB%E5%8A%A0%E8%9C%98%E8%9B%9B%E5%8D%8F%E8%AE%AE"><span class="nav-number">7.2.</span> <span class="nav-text">seo 添加蜘蛛协议</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#seo-%E6%8F%90%E4%BA%A4%E7%AB%99%E7%82%B9%E5%88%B0-Google"><span class="nav-number">7.3.</span> <span class="nav-text">seo 提交站点到 Google</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#seo-Baidu%E4%B8%BB%E5%8A%A8%E6%8F%90%E4%BA%A4%E9%93%BE%E6%8E%A5%E6%96%B9%E6%B3%95"><span class="nav-number">7.4.</span> <span class="nav-text">seo Baidu主动提交链接方法</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#hexo-%E5%85%AC%E7%9B%8A404"><span class="nav-number">8.</span> <span class="nav-text">hexo 公益404</span></a></li><li class="nav-item nav-level-3"><a class="nav-link"><span class="nav-number">9.</span> <span class="nav-text"></span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Hexo-Next%E4%B8%BB%E9%A2%98-%E7%A6%81%E7%94%A8%E4%BB%A3%E7%A0%81%E6%AE%B5-code-pre%E6%BB%9A%E5%8A%A8%E6%9D%A1%E4%BB%A5%E5%8F%8A%E8%87%AA%E5%8A%A8%E6%8D%A2%E8%A1%8C"><span class="nav-number">10.</span> <span class="nav-text">Hexo Next主题 禁用代码段.code pre滚动条以及自动换行</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#hexo-next-%E8%AF%84%E8%AE%BA%E5%8A%9F%E8%83%BD-gittalk"><span class="nav-number">1.</span> <span class="nav-text">hexo next 评论功能 gittalk</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#hexo-about%E5%85%B3%E4%BA%8E%E6%88%91"><span class="nav-number">2.</span> <span class="nav-text">hexo about关于我</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#hexo-tags%E6%A0%87%E7%AD%BE"><span class="nav-number">3.</span> <span class="nav-text">hexo tags标签</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#hexo-categories%E5%88%86%E7%B1%BB"><span class="nav-number">4.</span> <span class="nav-text">hexo categories分类</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#hexo%E5%AD%97%E6%95%B0%E7%BB%9F%E8%AE%A1"><span class="nav-number">5.</span> <span class="nav-text">hexo字数统计</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#hexo%E9%83%A8%E7%BD%B2%E5%88%B0github"><span class="nav-number">6.</span> <span class="nav-text">hexo部署到github</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#github-ssh-key"><span class="nav-number">7.</span> <span class="nav-text">github ssh key</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E2%80%98fatal-unable-to-access%E2%80%99-error"><span class="nav-number">7.1.</span> <span class="nav-text">‘fatal: unable to access’ error</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#How-to-switch-git-user-at-terminal-%E5%88%87%E6%8D%A2git%E8%B4%A6%E6%88%B7"><span class="nav-number">7.2.</span> <span class="nav-text">How to switch git user at terminal?切换git账户</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#hexo-next-seo"><span class="nav-number">8.</span> <span class="nav-text">hexo next seo</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#seo-%E6%B7%BB%E5%8A%A0%E7%AB%99%E7%82%B9%E5%9C%B0%E5%9B%BE"><span class="nav-number">8.1.</span> <span class="nav-text">seo 添加站点地图</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#seo-%E6%B7%BB%E5%8A%A0%E8%9C%98%E8%9B%9B%E5%8D%8F%E8%AE%AE"><span class="nav-number">8.2.</span> <span class="nav-text">seo 添加蜘蛛协议</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#seo-%E6%8F%90%E4%BA%A4%E7%AB%99%E7%82%B9%E5%88%B0-Google"><span class="nav-number">8.3.</span> <span class="nav-text">seo 提交站点到 Google</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#seo-Baidu%E4%B8%BB%E5%8A%A8%E6%8F%90%E4%BA%A4%E9%93%BE%E6%8E%A5%E6%96%B9%E6%B3%95"><span class="nav-number">8.4.</span> <span class="nav-text">seo Baidu主动提交链接方法</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#hexo-%E5%85%AC%E7%9B%8A404"><span class="nav-number">9.</span> <span class="nav-text">hexo 公益404</span></a></li><li class="nav-item nav-level-3"><a class="nav-link"><span class="nav-number">10.</span> <span class="nav-text"></span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Hexo-Next%E4%B8%BB%E9%A2%98-%E7%A6%81%E7%94%A8%E4%BB%A3%E7%A0%81%E6%AE%B5-code-pre%E6%BB%9A%E5%8A%A8%E6%9D%A1%E4%BB%A5%E5%8F%8A%E8%87%AA%E5%8A%A8%E6%8D%A2%E8%A1%8C"><span class="nav-number">11.</span> <span class="nav-text">Hexo Next主题 禁用代码段.code pre滚动条以及自动换行</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -469,20 +488,20 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">38</span>
+          <span class="site-state-item-count">43</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
-        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-count">3</span>
         <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">39</span>
+        <span class="site-state-item-count">43</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -536,12 +555,12 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-area"></i>
     </span>
-    <span title="站点总字数">36k</span>
+    <span title="站点总字数">48k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">33 分钟</span>
+    <span title="站点阅读时长">44 分钟</span>
 </div>
   <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://mist.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Mist</a> 强力驱动
   </div>
@@ -596,6 +615,26 @@
   
 
   
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
+
+<script>
+NexT.utils.loadComments(document.querySelector('#gitalk-container'), () => {
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js', () => {
+    var gitalk = new Gitalk({
+      clientID    : '452139bc1135defe0718',
+      clientSecret: '89f65939fce489424e6c3b0671b453db7a8e7543',
+      repo        : 'ThreeCornerstones_Comments',
+      owner       : 'ThreeCornerstones',
+      admin       : ['ThreeCornerstones'],
+      id          : '46b877b599ab859bf970f5f3caf48a20',
+        language: 'zh-CN',
+      distractionFreeMode: true
+    });
+    gitalk.render('gitalk-container');
+  }, window.Gitalk);
+});
+</script>
 
 </body>
 </html>
