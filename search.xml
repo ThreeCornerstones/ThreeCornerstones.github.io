@@ -1,0 +1,1124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>google-search-way</title>
+    <url>/2799856088/</url>
+    <content><![CDATA[<h3 id="google-site-search-网站文章搜索"><a href="#google-site-search-网站文章搜索" class="headerlink" title="google site search 网站文章搜索"></a>google site search 网站文章搜索</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">site:https:&#x2F;&#x2F;developer.apple.com&#x2F; Architecture</span><br></pre></td></tr></table></figure>
+
+<h3 id="google-site-article-title-search-网站文章标题搜索"><a href="#google-site-article-title-search-网站文章标题搜索" class="headerlink" title="google site article title search 网站文章标题搜索"></a>google site article title search 网站文章标题搜索</h3>]]></content>
+      <categories>
+        <category>tools</category>
+      </categories>
+      <tags>
+        <tag>tools</tag>
+        <tag>google</tag>
+        <tag>search</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/1243066710/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>hexo high play seo install configure</title>
+    <url>/547332078/</url>
+    <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo new [layout] &lt;title&gt;</span><br><span class="line"></span><br><span class="line">hexo publish [layout] &lt;title&gt;</span><br><span class="line"></span><br><span class="line">git clone https:&#x2F;&#x2F;github.com&#x2F;theme-next&#x2F;hexo-theme-next themes&#x2F;next</span><br></pre></td></tr></table></figure>
+
+<h3 id="hexo-next-谷歌分析"><a href="#hexo-next-谷歌分析" class="headerlink" title="hexo next 谷歌分析"></a>hexo next 谷歌分析</h3><h3 id="hexo-search-搜索功能"><a href="#hexo-search-搜索功能" class="headerlink" title="hexo search 搜索功能"></a>hexo search 搜索功能</h3><ul>
+<li>安装搜索插件： hexo-generator-searchdb</li>
+<li>npm install hexo-generator-searchdb –save</li>
+<li>安装完成，编辑博客配置文件：_config.yml<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">search:</span><br><span class="line">  path: search.xml</span><br><span class="line">  field: post</span><br><span class="line">  format: html</span><br><span class="line">  limit: 10000</span><br></pre></td></tr></table></figure></li>
+<li>Next 主题自带搜索设置，编辑主题配置文件：_config.yml,找到文件中 Local search 的相关配置，设为 true<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># Local search</span><br><span class="line">local_search:</span><br><span class="line">  enable: true</span><br></pre></td></tr></table></figure></li>
+<li>hexo 重新部署</li>
+</ul>
+<h3 id="hexo-next-文章连接url唯一永久"><a href="#hexo-next-文章连接url唯一永久" class="headerlink" title="hexo next 文章连接url唯一永久"></a>hexo next 文章连接url唯一永久</h3><ul>
+<li>使用插件 hexo-abbrlink可以做到自定义文章链接，安装：</li>
+<li>npm install hexo-abbrlink –save</li>
+<li>然后在 Hexo 的根目录的配置文件_config.yml 中修改：<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">permalink: :abbrlink&#x2F;</span><br><span class="line">#abbrlink配置</span><br><span class="line">abbrlink:</span><br><span class="line">  alg: crc32  # 算法：crc16(default) and crc32</span><br><span class="line">  rep: dec    # 进制：dec(default) and hex</span><br></pre></td></tr></table></figure></li>
+<li>之后再 md 文件开头中加入以下信息：<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">abbrlink: seourl</span><br><span class="line">---</span><br></pre></td></tr></table></figure></li>
+<li>如果文章中未指定 abbrlink: xxx，将会根据算法随机生成数字</li>
+<li>这样就确保了博文链接的唯一化，只要不修改 md 文件的 abbrlink 的值，url 就永久不会改变。如此 md 文件名和文件内容也可以随便改了。这样也有利于 SEO 优化。</li>
+</ul>
+<h3 id="hexo-next-评论功能-gittalk"><a href="#hexo-next-评论功能-gittalk" class="headerlink" title="hexo next 评论功能 gittalk"></a>hexo next 评论功能 gittalk</h3><ul>
+<li><a href="https://gitalk.github.io/">https://gitalk.github.io/</a></li>
+<li>要使用 Gitalk 需要先在 GitHub 上注册新应用，链接：<a href="https://github.com/settings/applications/new">https://github.com/settings/applications/new</a></li>
+<li>url位置，都填你的网站<a href="https://threecornerstones.github.io/">https://threecornerstones.github.io/</a></li>
+<li>点击注册后，页面大致如下，其中Client ID和Client Secret在后面的配置中需要用到，也是应用访问你 Github 的凭证，到时复制粘贴即可：</li>
+<li>Next 主题中已经默认集成了gitalk，只需在\themes\next_config.yml锁定gitalk配置开启使用：</li>
+<li>重新部署博客，打开页面进入某一博客内容下，评论会出现在页面最下方<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">gitalk:</span><br><span class="line">  enable: true  #启用gitalk</span><br><span class="line">  github_id:   #github帐号 例：CodeHaotian</span><br><span class="line">  id: location.pathname  #此设置参照下文常见问题说明</span><br><span class="line">  repo:   #存放评论的仓库名称</span><br><span class="line">  client_id:   #application的id，即上文Client ID</span><br><span class="line">  client_secret:  #application的密码，即上文Client Secret</span><br><span class="line">  admin_user:  #页面显示联系**初始化评论 例：CodeHaotian</span><br><span class="line">  distraction_free_mode: true # Facebook-like distraction free mode</span><br><span class="line">  # Gitalk&#39;s display language depends on user&#39;s browser or system environment</span><br><span class="line">  # If you want everyone visiting your site to see a uniform language, you can set a force language value</span><br><span class="line">  # Available values: en | es-ES | fr | ru | zh-CN | zh-TW</span><br><span class="line">  language: zh-CN</span><br></pre></td></tr></table></figure>
+
+
+</li>
+</ul>
+<h3 id="hexo-about关于我"><a href="#hexo-about关于我" class="headerlink" title="hexo about关于我"></a>hexo about关于我</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo new page about</span><br></pre></td></tr></table></figure>
+
+<h3 id="hexo-tags标签"><a href="#hexo-tags标签" class="headerlink" title="hexo tags标签"></a>hexo tags标签</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo new page tags</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>编辑刚新建的页面，将页面的类型设置为 tags<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: tags</span><br><span class="line">date: 2020-11-18 15:45:52</span><br><span class="line">type: &quot;tags&quot;</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+<h3 id="hexo-categories分类"><a href="#hexo-categories分类" class="headerlink" title="hexo categories分类"></a>hexo categories分类</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo new page categories</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>编辑刚新建的页面，将页面的类型设置为 categories<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: categories</span><br><span class="line">date: 2019-04-24 15:30:30</span><br><span class="line">type: &quot;categories&quot;</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+<h3 id="hexo字数统计"><a href="#hexo字数统计" class="headerlink" title="hexo字数统计"></a>hexo字数统计</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm add hexo-symbols-count-time</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>next _config.yaml<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">symbols_count_time:</span><br><span class="line">  separated_meta: true  # 是否换行显示 字数统计 及 阅读时长</span><br><span class="line">  item_text_post: true  # 文章 字数统计 阅读时长 使用图标 还是 文本表示</span><br><span class="line">  item_text_total: false # 博客底部统计 字数统计 阅读时长 使用图标 还是 文本表示</span><br><span class="line">  awl: 4</span><br><span class="line">  wpm: 275</span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+<h3 id="hexo部署到github"><a href="#hexo部署到github" class="headerlink" title="hexo部署到github"></a>hexo部署到github</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+
+<h3 id="github-ssh-key"><a href="#github-ssh-key" class="headerlink" title="github ssh key"></a>github ssh key</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git config --global user.name &quot;gege&quot;</span><br><span class="line">git config --global user.email &quot;william@gmail.com&quot;</span><br><span class="line"></span><br><span class="line">查看是否已经有了ssh密钥：cd ~&#x2F;.ssh</span><br><span class="line"></span><br><span class="line">vim id_rsa.pub</span><br><span class="line"></span><br><span class="line">cat id_rsa.pub</span><br><span class="line"></span><br><span class="line">生成密钥：ssh-keygen -t rsa -C william@gmail.com”</span><br><span class="line"></span><br><span class="line">最后得到两个文件：id_rsa和id_rsa.pub</span><br></pre></td></tr></table></figure>
+
+<h4 id="‘fatal-unable-to-access’-error"><a href="#‘fatal-unable-to-access’-error" class="headerlink" title="‘fatal: unable to access’ error"></a>‘fatal: unable to access’ error</h4><ul>
+<li>原来有git，需要切换，切换步骤如下</li>
+<li>切换后，关闭git账户二次认证</li>
+</ul>
+<h4 id="How-to-switch-git-user-at-terminal-切换git账户"><a href="#How-to-switch-git-user-at-terminal-切换git账户" class="headerlink" title="How to switch git user at terminal?切换git账户"></a>How to switch git user at terminal?切换git账户</h4><ul>
+<li>In addition to changing username and email from terminal using git config:</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ git config --global user.name &quot;Bob&quot;</span><br><span class="line">$ git config --global user.email &quot;bob@example.com&quot;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><p>you’ll need to remove authorization info from Keychain. This is something I’ve also struggled with until I found that I also had certificate in my Keychain.</p>
+</li>
+<li><p>Open up Keychain access, click on All Items and search for git. You will get some items like this:搜索所以github的删除</p>
+</li>
+</ul>
+<h3 id="hexo-next-seo"><a href="#hexo-next-seo" class="headerlink" title="hexo next seo"></a>hexo next seo</h3><h4 id="seo-添加站点地图"><a href="#seo-添加站点地图" class="headerlink" title="seo 添加站点地图"></a>seo 添加站点地图</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-sitemap --save</span><br><span class="line">npm install hexo-generator-baidu-sitemap --save</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>修改站点配置文件<ul>
+<li>将sitemap文件添加到站点配置文件_config.yml中，并修改url字段的值，其值默认为<a href="http://yoursite.com./">http://yoursite.com。</a><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sitemap: </span><br><span class="line">  path: sitemap.xml</span><br><span class="line">baidusitemap:</span><br><span class="line">  path: baidusitemap.xml</span><br><span class="line"></span><br><span class="line">url: https:&#x2F;&#x2F;hoxis.github.io</span><br></pre></td></tr></table></figure></li>
+</ul>
+</li>
+<li>安装完成后执行hexo g即会在站点public目录下生成sitemap.xml和baidusitemap.xml。</li>
+</ul>
+<h4 id="seo-添加蜘蛛协议"><a href="#seo-添加蜘蛛协议" class="headerlink" title="seo 添加蜘蛛协议"></a>seo 添加蜘蛛协议</h4><ul>
+<li>在站点source文件夹下新建robots.txt文件，文件内容如下：<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">User-agent: *</span><br><span class="line">Allow: &#x2F;</span><br><span class="line">Allow: &#x2F;about&#x2F; </span><br><span class="line">Allow: &#x2F;archives&#x2F;</span><br><span class="line">Allow: &#x2F;categories&#x2F;</span><br><span class="line">Allow: &#x2F;tags&#x2F; </span><br><span class="line">Allow: &#x2F;resources&#x2F; </span><br><span class="line">Disallow: &#x2F;vendors&#x2F;</span><br><span class="line">Disallow: &#x2F;js&#x2F;</span><br><span class="line">Disallow: &#x2F;css&#x2F;</span><br><span class="line">Disallow: &#x2F;fonts&#x2F;</span><br><span class="line">Disallow: &#x2F;vendors&#x2F;</span><br><span class="line">Disallow: &#x2F;fancybox&#x2F;</span><br><span class="line"></span><br><span class="line">Sitemap: https:&#x2F;&#x2F;threecornerstones.github.io&#x2F;sitemap.xml</span><br><span class="line">Sitemap: https:&#x2F;&#x2F;threecornerstones.github.io&#x2F;baidusitemap.xml</span><br></pre></td></tr></table></figure></li>
+<li>Allow字段的值即为允许搜索引擎爬区的内容，可以对应到主题配置文件中的menu目录配置，如果菜单栏还有其他选项都可以按照格式自行添加。</li>
+<li>需要将<a href="https://threecornerstones.github.io改成自己的域名./">https://threecornerstones.github.io改成自己的域名。</a></li>
+</ul>
+<h4 id="seo-提交站点到-Google"><a href="#seo-提交站点到-Google" class="headerlink" title="seo 提交站点到 Google"></a>seo 提交站点到 Google</h4><ul>
+<li><p>打开<a href="https://developers.google.com/search">Google Search Console</a>，添加博客地址。</p>
+</li>
+<li><p>站点验证，只需要配置网页标签验证，就是到next主题下，配置google_site_verification</p>
+<ul>
+<li>配置之后，代码会在head.swig判断，添加meta标签</li>
+</ul>
+</li>
+<li><p>提交站点地图</p>
+<ul>
+<li>点击右上角添加/测试站点地图输入 sitemap.xml 进行测试，测试无误后再提交文件。</li>
+</ul>
+</li>
+</ul>
+<h4 id="seo-Baidu主动提交链接方法"><a href="#seo-Baidu主动提交链接方法" class="headerlink" title="seo Baidu主动提交链接方法"></a>seo Baidu主动提交链接方法</h4><ul>
+<li><p>该方法可直接推送.github.io结尾的网页的链接给百度而避免百度无法爬取github中链接的问题。</p>
+</li>
+<li><p>该方法需要安装hexo插件，参考官方说明Hexo插件之百度自动提交链接。</p>
+</li>
+<li><p>某些主机，比如Github，禁止百度爬虫访问博客，导致博客无法被百度收录。多亏百度提供了主动提交的接口，这才有了个补救的方法。</p>
+</li>
+<li><p>前提,您得注册百度站长工具，然后在工具-&gt;网页抓取-&gt;链接提交里找到你的密匙。</p>
+</li>
+<li><p><a href="https://ziyuan.baidu.com/site/index">https://ziyuan.baidu.com/site/index</a></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install hexo-baidu-url-submit --save</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>站点验证，只需要配置网页标签验证，就是到next主题下，配置baidu_site_verification</p>
+<ul>
+<li>配置之后，代码会在head.swig判断，添加meta标签</li>
+</ul>
+</li>
+<li><p>配置博客根目录下的_config.yml文件</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">baidu_url_submit:</span><br><span class="line">  count: 3 ## 比如3，代表提交最新的三个链接</span><br><span class="line">  host: https:&#x2F;&#x2F;hoxis.github.io ## 在百度站长平台中注册的域名</span><br><span class="line">  token: your_token ## 请注意这是您的秘钥， 请不要发布在公众仓库里!</span><br><span class="line">  path: baidu_urls.txt ## 文本文档的地址， 新链接会保存在此文本文档里</span><br></pre></td></tr></table></figure>
+
+
+</li>
+</ul>
+<h3 id="hexo-公益404"><a href="#hexo-公益404" class="headerlink" title="hexo 公益404"></a>hexo 公益404</h3><ul>
+<li>在source下新建了个404.md</li>
+<li>内容如下<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">comments: false</span><br><span class="line">---</span><br><span class="line"></span><br><span class="line">&lt;script type&#x3D;&quot;text&#x2F;javascript&quot; src&#x3D;&quot;&#x2F;&#x2F;qzonestyle.gtimg.cn&#x2F;qzone&#x2F;hybrid&#x2F;app&#x2F;404&#x2F;search_children.js&quot; homepagename&#x3D;&#39;返回主页&#39; homepageurl&#x3D;&quot;&#x2F;&quot; charset&#x3D;&quot;utf-8&quot;&gt;&lt;&#x2F;script&gt;</span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+<h3 id=""><a href="#" class="headerlink" title=""></a></h3><ul>
+<li><a href="http://www.google.com/adsense">http://www.google.com/adsense</a></li>
+<li>登录您的 AdSense 帐号。点击 网站。点击 添加网站。输入您网站的网址。将您的网站关联到 AdSense。</li>
+<li>将代码复制并粘贴到网页的 HTML 中，放置在 <head> 和 </head> 标签之间。</li>
+<li>使用 Hexo + NexT 搭建的博客站点，只要将 Google 提供的 AdSense 代码添加到 /themes/next/layout/_partials/head/head.swig 文件末尾即可：</li>
+</ul>
+<h3 id="Hexo-Next主题-禁用代码段-code-pre滚动条以及自动换行"><a href="#Hexo-Next主题-禁用代码段-code-pre滚动条以及自动换行" class="headerlink" title="Hexo Next主题 禁用代码段.code pre滚动条以及自动换行"></a>Hexo Next主题 禁用代码段.code pre滚动条以及自动换行</h3><ul>
+<li>搜索highlight.styl</li>
+<li>按下面修改</li>
+<li>解决超出边框会显示横向滚动条难看问题<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">.code pre &#123;</span><br><span class="line">		&#x2F;&#x2F; width: 100%  注释这句或者下面两句，解决有时候会显示垂直滚动条问题</span><br><span class="line">    padding-left: 10px</span><br><span class="line">    padding-right: 10px</span><br><span class="line">    background-color: $highlight-background</span><br><span class="line">    white-space: pre-wrap  &#x2F;&#x2F;自动换行，不显示横向滚动条</span><br><span class="line">    word-wrap: break-word  &#x2F;&#x2F;自动换行，不显示横向滚动条</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+<hr>
+<ul>
+<li>Hexo 有三种默认布局：post、page 和 draft。在创建者三种不同类型的文件时，它们将会被保存到不同的路径；而您自定义的其他布局和 post 相同，都将储存到 source/_posts 文件夹。</li>
+</ul>
+<p>releate</p>
+<ul>
+<li><a href="https://github.com/theme-next">https://github.com/theme-next</a></li>
+<li><a href="https://github.com/theme-next/hexo-theme-next.git">https://github.com/theme-next/hexo-theme-next.git</a></li>
+<li><a href="https://github.com/hexojs/hexo-deployer-git">https://github.com/hexojs/hexo-deployer-git</a></li>
+<li><a href="https://linlif.github.io/2017/05/27/Hexo%E4%BD%BF%E7%94%A8%E6%94%BB%E7%95%A5-%E6%B7%BB%E5%8A%A0%E5%88%86%E7%B1%BB%E5%8F%8A%E6%A0%87%E7%AD%BE/">Hexo使用攻略-添加分类及标签</a></li>
+<li><a href="https://hexo.io/zh-cn/docs/writing.html">写作</a></li>
+<li><a href="https://shjhe.github.io/hexo/2018/07/04/Hexo%20Next%E4%B8%BB%E9%A2%98%E5%BC%80%E5%90%AF%E5%AD%97%E6%95%B0%E7%BB%9F%E8%AE%A1%E5%8F%8A%E9%98%85%E8%AF%BB%E6%97%B6%E9%95%BF/">Hexo Next主题开启字数统计及阅读时长</a></li>
+<li><a href="https://hoxis.github.io/Hexo+Next%20SEO%E4%BC%98%E5%8C%96.html">Hexo博客Next主题SEO优化方法</a></li>
+<li><a href="https://blog.cmyr.ltd/archives/e85d425e.html">2019-09-04 设置hexo 下next主题的404页面</a></li>
+<li><a href="https://wylu.me/posts/9d582ac3/">Hexo NexT主题博客接入谷歌广告</a></li>
+<li><a href="https://www.mscoder.cn/post/other/cms/hexo/hexo-disable-scrollbar/">Hexo Next主题 禁用代码段.code pre滚动条以及自动换行</a></li>
+<li><a href="https://hui-wang.info/2016/10/23/Hexo%E6%8F%92%E4%BB%B6%E4%B9%8B%E7%99%BE%E5%BA%A6%E4%B8%BB%E5%8A%A8%E6%8F%90%E4%BA%A4%E9%93%BE%E6%8E%A5/">Hexo插件之百度主动提交链接</a></li>
+<li><a href="https://jingyan.baidu.com/article/a3761b2bf716631576f9aa3a.html">github博客hexo-next主题配置百度站点收录管理</a></li>
+<li>20201120<a href="https://www.jianshu.com/p/02fc71f3633f">Hexo 集成 Gitalk 评论系统</a></li>
+<li>20201120<a href="https://blog.zuiyu1818.cn/posts/NexT_seourl.html">Hexo | 博客文章链接优化</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>tools</category>
+      </categories>
+      <tags>
+        <tag>tools</tag>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>上大学要知道什么</title>
+    <url>/820031299/</url>
+    <content><![CDATA[<p>大学，在高考过后的学生，或者说孩子眼中是多么的圣洁、美好，孩子们怀着对它的憧憬与向往，准备着有关大学生活的一切。</p>
+<p>大学，承载着孩子们一直想追寻的属于他/她的理想、愿望： “上了大学我要玩摄影”、“我要谈恋爱”、“我要兼职赚钱”、“我要创业”等等。</p>
+<p>大学，这里有孩子们一直想跨越的高度：可能你是家中第一个考上大学的孩子，也可能是你们村里第一个走出山区的孩子；还可能是你考了两年，甚至复读了3年才终于圆的梦。</p>
+<p>大学，这里有孩子们一直想走出去看看的风景：不同的风土人情，各异的良师益友，挣脱束缚后的自由畅快。</p>
+<p>毋庸置疑的是，大学意味着孩子们梦寐以求的自由与解放。</p>
+<p>最容易被人遗忘但最重要的是，大学里还有广袤无垠的知识海洋。孩子们，你们能否畅游其中，决定了未来的起点与人生高度。</p>
+<p>孩子们，大学其实也是把双刃剑，但总体来说利大于弊。</p>
+<p>有利的方面大体有以下：</p>
+<p>1.性格塑造与三观修正（世界观、人生观和价值观）</p>
+<p>2.为人处世修炼；</p>
+<p>3.健康心态锻造；</p>
+<p>4.丰富经历；</p>
+<p>有弊的方面：</p>
+<p>1.你可能会越来越堕落；</p>
+<p>2.你可能会变得不认识自己了；</p>
+<p>3.很大程度上你可能会变胖。</p>
+<p>可能会反复萌生的想法：</p>
+<p>1.好想回去复读；</p>
+<p>2.好怀念高三生活；</p>
+<p>3.当初要是再努力点，高考分数考的高些就好了。</p>
+]]></content>
+      <categories>
+        <category>大学生活</category>
+      </categories>
+      <tags>
+        <tag>大学</tag>
+        <tag>常识</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>上大学户口怎么办</title>
+    <url>/2553311511/</url>
+    <content><![CDATA[<p>上大学会涉及到户口是否转出的问题，下面将利弊讲一下。</p>
+<p>户口转出：利于你在大学所在城市生活，可以享受与当地人同等的待遇，比如考驾照，本地户口要比外地户口的报名费少1000元左右；再比如你丢失身份证，在当地补办即可。但当你把户口转到大学所在城市毕业再转回老家就有些麻烦，尤其是农村，因为现在有些农村的福利待遇很好。如果计划毕业后在大学所在城市发展，那么户口转出的必要性就很大。</p>
+<p>户口不转：如果你毕业后不打算在大学所在城市生活、发展，转户口的必要性不是很大，唯一的麻烦是：身份证丢失补办起来比较费工夫，要回户口所在地办理才行。所以，要保存好自己的身份证。</p>
+]]></content>
+      <categories>
+        <category>大学生活</category>
+      </categories>
+      <tags>
+        <tag>大学</tag>
+        <tag>户口</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>上大学要摆正心态</title>
+    <url>/3706672792/</url>
+    <content><![CDATA[<p>踏入大学是你人生一段全新旅程的开始，因为对于大家来说，你的过去无从知晓。这是一次重塑自己的良好机会。如果想改变自己，请做好规划去坚持实践，大学四年的时间足够使你变得更好。</p>
+<p>来到大学最重要的是要摆正心态：第一，如果你报错了学校，请尽早做决定，回去复读重考或者以平和心对待，创造你的精彩。即使学校不好，如果你对自己负责也会在毕业时收获颇丰。第二，如果你不喜欢你的专业，请留意你所在学校的转专业申请相关规定。转专业的一个硬性条件是成绩必须优秀或者你能够证明你在所要转的专业领域有突出表现。</p>
+<p>大学，她的重要性无论怎样强调都不为过。因为她是你人生征程中一个全新的起点。但曾在北大任职的钱理群教授说大学正在培养一批批“精致的利己主义者”，这也在某种层面上反映了大学教育的一个普遍现象。希望你带着这个疑问去经历大学：你的理想该如何与现实对接，这个过程需要你自己综合各方面因素做出取舍。</p>
+]]></content>
+      <categories>
+        <category>大学生活</category>
+      </categories>
+      <tags>
+        <tag>大学</tag>
+        <tag>心态</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>大学时期有意思的军训</title>
+    <url>/3590298796/</url>
+    <content><![CDATA[<p>大学军训期一般为2-4个星期，教官一般是军校大三的学生，例如西安院校军训的教官有可能是第二炮兵工程学院的大三学生。对于这些教官来说，训练新生就是他们的实习生涯。由于教官和大家年纪相仿，教官也是从你们这个年龄段过来的，因此和教官的相处相对来说轻松愉快些。军训期会有一个军训优秀标兵或者个人的评选，有时辅导员也会通过询问教官关于学生的表现或者教官向辅导员推荐等方式来确定班委人选。所以和教官和谐相处是一件百利而无一害的事情，有些女生还可能和教官谈一场恋爱呢（当年我们班一女生就是这样）！</p>
+<p>军训期中间或者结束时一般会有合影留念的环节，记住：一定要穿戴整齐、收拾利落，所拍照片有可能用于你们的校园一卡通，说不定要伴随你四年的。</p>
+]]></content>
+      <categories>
+        <category>大学生活</category>
+      </categories>
+      <tags>
+        <tag>大学</tag>
+        <tag>军训</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>高考结束后干点什么</title>
+    <url>/2844899291/</url>
+    <content><![CDATA[<p>高考结束，如果顺利考入大学，那么恭喜你，你将步入人生另一段重要旅程，至于精彩与否，则完全取决于你自身。高考结束离大学的正式入学基本上还有完整2个月的时间。利用好这段时间，会让你平稳顺当的进入大学。以下给予几个建议：首先，你可以选择去学习一门才艺，如吉他、街舞、钢琴；学唱唱歌或者一门语言，目的在于：在大学之初的军训期能够给你的同学留一个好印象，树立好个人形象。其次，如果英语不是特别好，应该每天稍微复习一下，有的学校会在开学之初举行英语考试，以此作为入选实验班或者基础班的依据；有的学校大一就可以考英语四级，这样在备考时可以轻松不少。再次，可以利用暑期做家教，体会一下自己赚钱消费的感觉。最后，体验一下网络远程教育，推荐两个知名的网络学习平台，哈佛公开课、网易云课堂。此外你也可以进行一次有意义的旅行，三五好友结伴而行，或骑行或搭车等等，采取特别的方式会别样有趣。</p>
+]]></content>
+      <categories>
+        <category>大学生活</category>
+      </categories>
+      <tags>
+        <tag>大学</tag>
+        <tag>高考</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>估算那些事</title>
+    <url>/3466919584/</url>
+    <content><![CDATA[<p>估算，在外行人看起来是一件再小不过的事情了，但是笔者认为它在所有项目管理技术里面是比较核心的一部分，蕴含着很大的学问。什么样的情况下该选什么样的估算单位，用什么样的估算方式，以及各自的优劣势，本文都将详细介绍。</p>
+<p>▷ 说在最开始</p>
+<p>对于估算，团队常常会有这样的困惑：花了大把时间来估算，最后却发现与实际还是有不小的偏差，到底有没有必要做估算？怎样来做估算？</p>
+<p>俗话说，行百里者半九十，意思是说一百里的路走了前面九十里其实只完成了一半，剩下的十里仍需要花很多的功夫。那么现实的生活和工作中，我们是不是也经常遇到这样的情况呢？回想一下，会不会有这样一种经历：打扫卫生，让房子从凌乱到整洁只需要20%的努力，要让房子从整洁到一尘不染却要花费80%的努力。那么我们就要审视一下，在精力有限的情况下，从整洁到一尘不染有没有必要？房子从凌乱到整洁是不是就已经足够了？我想没有洁癖的一般人，就如我，会觉得后面那个过程的性价比实在太低，完全没有必要。</p>
+<p>回过头来看我们在项目中的估算是不是也可以类比，从无估算到有估算其实花的是比较有限的精力，但是从有估算到追求“准确”估算却是个漫长的过程，并且有数据显示，我们花一些时间得到的估算数据与花费大量时间而得到的结果不会差很多。《敏捷估计与规划》这本书中提到，估计的准确度和投入的工作量之间存在图1-5的关系。</p>
+<p><img src="https://gitee.com/threecornerstones/ThreeCornerstones_Pic/raw/master/uPic/lc0QAA.png" alt="lc0QAA"><br>图1-5　估算准确度和投入的工作量之间的关系</p>
+<p>因此我们认为估算还是需要做的，有了估算，在团队协作中，各角色才知道自己大概要在什么时间安排什么工作。但是在估算的时候不必花费大量的精力强求精确，更何况我们也无法做到精准。估算只是估算，只要做到尽量合理、尽量贴近真实值即可。</p>
+<p>▷ 估算单位的选择</p>
+<p>有的团队往往会在估算开始时纠结于如何选择估算单位，因为合理的估算单位选择是影响估算成功的关键因素。那么究竟该如何选择呢？</p>
+<ol>
+<li>理想人日</li>
+</ol>
+<p>理想人日是指成员在不受干扰的情况下，全部时间都用于开发需求所需的天数。理想人日的劣势在于：小组成员对技术和项目的熟悉程度、个人的经验和能力不同，会导致基于理想人日的估算值有一定差异。例如，你问一个擅长C语言的成员某个需用Java开发的功能的理想人日，他也许会告诉你是5天。但是你问一个擅长Java的成员同样的问题，他的回答也许就是1天。这样的差异会导致我们对任务规模认识的偏差，很难衡量项目的实际“大小”。而它的优势则在于：对于团队外部的人来说，理想人日更容易被理解，无须解释。对于团队而言，它使估算更容易开始。</p>
+<ol start="2">
+<li>理想人时</li>
+</ol>
+<p>理想人时是对应理想人日而存在的，只不过它的粒度更小。在熟悉需求的情况下，用理想人时的估算会更准确些。想象一下，让你估算接下来1小时能完成多少工作任务和接下来一天能完成多少任务，哪个更接近真实情况？我想应该是前者吧。因为一天内能做多少工作，我们需要去除很多“杂事”（如喝水，上厕所，跟同事唠嗑，戳网页……）来估算纯干活的时间，这一点往往较难一些，总会存在一些偏差。但是如果要估算接下来1小时能做什么，应该就比较容易了。理想人时的估算优势就在于：在充分理解需求的情况下，能帮助团队做到更靠近真实值的估算。而缺点是：对于一些大的需求无法做到如此细的粒度。</p>
+<ol start="3">
+<li>故事点</li>
+</ol>
+<p>故事点来自敏捷的概念，是对任务规模的估计，它是一种相对概念。例如，需求X为4个故事点，需求Y为8个故事点，则表示Y的规模是X的两倍，但并不表示开发Y比开发X要多一倍的时间，因为这还取决于由什么样技术熟练度的人员开发。故事点的优势在于：一方面，基于故事点的估算更纯粹，不会因为开发人员的变更、时间的推移而改变。换句话说，项目半途有成员离职，加入新的成员，此时我们不需要对每个任务都重新估计，只需要重新评估一下是否需要调整插入到当前迭代的故事点数。另一方面，由于人们往往更擅长于相对估算，所以故事点会让估算更迅速。想象一下，让你估算一杯水是另一杯水的几倍，是不是比让你估算两杯水各是多少毫升来得更容易呢？劣势在于：一方面，由于编程语言不同或者业务分块，大家很难找到一个共同熟悉的需求作为基准，那么用故事点作为估算单位的方式就很难开展了。另一方面，故事点相对于其他估算单位更难被理解，这也使估算难以开始。</p>
+<p>▷ 估算的几种常用方式</p>
+<ol>
+<li>自下而上的估算</li>
+</ol>
+<p>由每个开发人员估算自己的任务时间，然后将所有的任务汇总，并考虑过任务间的依赖关系后，就排出了计划。该方式适用于具有以下特点的团队：成员间业务独立性强，相互之间的业务熟悉度不高且熟悉成本较大，较难进行共同估算；各成员的经验相对丰富，对自己的任务能进行较准的评估。在这样的团队应用该估算方式有以下优势：</p>
+<p>• 估算效率较高，各自任务的估算可以并行进行。</p>
+<p>• 准确度也会较高，因为大家对自己的任务和能力都比较熟悉。</p>
+<ol start="2">
+<li>专家判断</li>
+</ol>
+<p>由一个或多个专家根据相应开发的情况给出任务的估算值，但前提是你能找到这样一个熟悉整个项目所有业务和整个项目团队成员的专家或专家组。笔者所在的团队一般会由开发领导者来充当这样的角色。它的好处显而易见：</p>
+<p>• 通常不需要太多的时间。一个人估算就不存在太多的交流成本。</p>
+<p>• 准确度有一定的保障。有证据说这种估算方法比其他分析性方法更准确。</p>
+<ol start="3">
+<li>扑克估算</li>
+</ol>
+<p>该方法是以扑克牌的形式进行估算。估算开始前，每个估计者会分到一叠扑克牌，每张上有一个数值，如0，1，2，3，5，8。然后由负责人对某个需要进行估算的需求或者任务进行讲解，讲解完之后，所有人可以向该负责人提问关于该条需求或任务的问题，直至足够了解，然后所有成员各自挑选一张扑克牌代表自己对该条目的估算。例如A给出8，而B只给了2，这样就需要A和B各自说明自己估算的理由。这样一轮下来，大家对该条目又加深了了解，然后进行第二轮估算，如果相差还是很大，则继续下一轮。大多数情况下至多经过两轮，大家的估算值已经非常接近了，就可以取平均值作为对该条目最终的估算。扑克估算的好处在于：</p>
+<p>• 集合了所有团队成员的意见，比一个人估算少了很多主观成分。</p>
+<p>• 在估算过程中，强化和深化了大家对需求和任务的理解，将任务考虑得更加细致，降低了不确定性给计划带来的冲击。</p>
+<p>• 这种形式使相对严肃的计划和估算变得更加有趣，但是不得不承认，这需要比前两种方式更多的时间成本。</p>
+<p>如果你们团队对于这种估算方式的接受度较高，能够找到一个故事作为基准，大家的编程语言一致，有能力评估同一个需求，就可以通过这种方式把需求的理解做到位。另外，这种方式也可以演化一下，当团队成员间对某个需求的工作量有较大分歧的时候，就可以让团队采用这种方式来达成一致。</p>
+<p>▷ 实际应用中的估算实例</p>
+<ol>
+<li>故事点+扑克估算</li>
+</ol>
+<p>Datastream</p>
+<p>团队稳定合作近2年，尝试敏捷1年多，开发语言统一，长期服务于一个产品，成员间对相互的业务也都比较熟悉。</p>
+<p>估算单位和估算方法：由于很容易找到大家熟悉的一个用户故事作为基准，团队选择基于故事点的扑克估算。团队在经过几次迭代之后，基本上确定了团队的开发速率（每个迭代能完成的故事点数）。在接下来的迭代中，团队通过扑克估算确定了每个用户故事的故事点，再根据用户故事的优先级一个个插入迭代开发计划中。扑克估算促使大家把对需求理解的不一致提前暴露出来，能在很大程度上减少交付成果和需求不一致的情况。</p>
+<p>除了Datastream，网易云阅读、网易漫画、网易Gacha等产品开发过程中，当大家对需求工作量分歧较大的时候也采用这种方式。</p>
+<ol start="2">
+<li>理想人日+专家判断</li>
+</ol>
+<p>网易云硬盘</p>
+<p>组成：9人团队</p>
+<p>现状：团队组建不到3个月，开发语言不统一，成员比较年轻，对系统的熟悉程度也不高。</p>
+<p>估算单位和估算方法：一方面，由于成员之间的业务熟悉度不高且开发语言不统一，团队无法轻易找到一个合适的基准用户故事，所以团队的估算都是基于理想人天开展的。另一方面，由于开发人员数量较多且一部分成员经验比较欠缺，无法很好地进行团队估算，所以团队选择采用专家判断（开发领导者给出估算）为主的方式进行计划。</p>
+<p>除了网易云硬盘，网易云安全以及其他一些成员经验有限的新团队也在一段时间内采用这种方式。</p>
+<ol start="3">
+<li>理想人时+自下而上</li>
+</ol>
+<p>网易用户中心产品</p>
+<p>组成：20人团队</p>
+<p>现状：团队组建约3个月，产品模块较多，不同模块有不同的负责人，成员对自己模块的业务逻辑比较清楚，但是对其他模块的业务了解甚少，且一人会同时服务于几个项目。</p>
+<p>估算单位和估算方法：由于成员间业务熟悉度不高且开发语言不统一，团队无法找到合适的基准故事点，而且一个成员并行任务较多，成员自己都很难判断自己的安排是否合理，所以需要更精细化的估算单位，团队因而选择理想人时作为估算单位。另外，也由于模块较多，开发领导者不能熟知各业务逻辑，所以团队采用了自下而上的估算方式，由成员各自估算各自的任务，进而给出开发计划。</p>
+<p>除了网易用户中心，还有网易云主机等产品也曾采用这种方式。</p>
+<p>网易理财</p>
+<p>组成：40+人团队</p>
+<p>现状：团队组建半年多，业务种类较多，大团队中分小团队负责不同的业务。</p>
+<p>估算单位和估算方法：理想人日对于团队来讲更直白，团队中一个人主要会在一个项目开展工作，无须更精细的单位，所以团队选择的是理想人日作为估算单位。由于团队较大，业务的种类也比较多，团队无法找出一个人能够作为专家来判断，所以选择自下而上的估算方式。</p>
+<p>该种类型的方式是网易大部分产品目前采用的方式，例如网易云音乐、网易云课堂、考拉海购等。</p>
+<p>通过以上几个例子，笔者想说明的是：各种估算单位和估算方式本身并没有好坏之分，只有合适不合适之说。每个团队都需要根据成员和项目的现状来进行选择。随着项目阶段的变化，以及人员的调整，估算的方式都要随之变化。以上所述也只是在一些项目的某个阶段、某种状态下的例子。如果生搬硬套只会弄巧成拙，得不偿失。</p>
+<p>▷ 关于估算，我们需要注意的点</p>
+<p>（1）估算仅仅是一个预测，当对外（或者对老板）承诺项目完成时间的时候，最好提供一个日期范围，让听者知道你的估算只是预测。</p>
+<p>（2）不管用什么估算方法，将任务分成更细粒度总是有利于估算的。</p>
+<p>（3）团队需要练习估算方式并且收集反馈。每次估算对应的开发结束后，大家需要回过头看看我们当初做的估算是否合理，如果不合理，那么就要分析原因，并且在下一次尝试中做调整。</p>
+<p>（4）估算需要反复进行，当项目进行到一半时，发现估算过于乐观了，就需要对剩下的工作进行重新估算。</p>
+<p>（5）当发现团队成员经常过于乐观或者过于悲观的时候，我们需要采取相应的措施。例如，有的团队经常比较乐观，那么我们在整体规划的时候就需要给出更多的预留。而当有的团队过于悲观的时候，我们的计划又要适当做得更激进一些。</p>
+]]></content>
+      <categories>
+        <category>项目管理</category>
+      </categories>
+      <tags>
+        <tag>项目</tag>
+        <tag>管理</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>工作时间打扑克</title>
+    <url>/2607925454/</url>
+    <content><![CDATA[<p>估算在项目管理的知识技能中占据了很重要的一席。本文将从估算带来的价值以及扑克估算的诸多好处来向读者展开介绍。</p>
+<p>不知道是不是因为勾起了大家的牌瘾，最近一阵扑克估算很是火了一把，在几个项目尝试后很快蔓延开来，很多项目团队都跃跃欲试。</p>
+<p>尝试的过程中难免产生一些困惑，在这里做个澄清，把我实践下来所理解的扑克估算的方方面面跟大家一一道来。</p>
+<p>在开始之前，首先需要澄清的是，在某种程度上，估算其实是在预测未来！预测未来是件非常难的事情，我们看看天气预报，就知道人类在这项工作上有多么的不靠谱了。</p>
+<p>▷ 为什么要做估算</p>
+<p>估算本身很困难，而花在估算活动本身上的时间，又并不能够对产品本身产生直接的价值，那么为什么我们要花时间做估算呢？为什么气象中心还是坚持不懈地发布自己的预报呢？</p>
+<p>首先，用户需要一个预期，甚至承诺，这个功能什么时候都需要提供。</p>
+<p>其次，管理层需要可预测性，某些决策需要基于估算而做出，即便这个估算还不那么准确，但总是聊胜于无。</p>
+<p>最后，团队需要了解如何相互协作，在哪个时间点能够拿到所需要的接口或素材，据此相应地规划并安排自己的工作。</p>
+<p>总之，估算可以帮助我们找到一个合理的计划，给用户、管理层以及团队自己一个稳定的预期。</p>
+<p>▷ 为什么选择相对估算</p>
+<p>传统的估算方法，通常是基于人天/小时的绝对估算。而敏捷中所推荐的扑克估算方法，则是基于故事点的相对估算。这种估算一开始容易让人找不着北，大家会习惯性地问：“那这个故事点到底代表什么？单位是什么？做完了相对估算是不是还要再转化为人天？与人天的对应关系又是什么？”</p>
+<p>要想讲清楚这一系列的问题，我们需要先搞清楚为什么选择相对估算。相对估算有哪些好处呢？</p>
+<p>首先，相对估算更符合人的本能认知。电脑区别于人脑的一大特点，就是电脑更擅长计算与处理绝对信息，而人脑则对相对印象更有感觉。我们可能永远搞不清楚手上的核桃和苹果的真实重量，但却能很直观地判断出苹果更重，重量嘛，大概相当于“6个核桃”。瞧，这就是人类的本能认知。</p>
+<p>其次，正是因为相对估算更符合人的本能认知，因此掌握之后，它能让估算过程变得更快、更简单。因为我们不再需要纠结于这个任务到底需要5天还是4.5天，我们只需要为手头的工作定义一个参照物（1个核桃）作为基准，然后拿其他的工作与之相比较，工作量是更大还是更小、复杂度是更高还是更低，然后给出一个大约的倍数值就可以了。</p>
+<p>▷ 相对估算需要转化为人天吗</p>
+<p>在实施Scrum的项目团队中，最后得出的故事点的数值，不需要再转化成人天，这是由Scrum的特性所决定的。</p>
+<p>在Scrum项目中，我们会以迭代（sprint）为周期来做增量交付，这直接改变了做计划的方式。传统项目中，我们需要根据基于人天的估算来确定各节点及最终发布的日期到底是几号，而在Scrum项目中，周期是事先约定好的。每个迭代的计划不需要确定日期，而只需要估算下一个迭代我们能完成多少工作。由于迭代固定周期性的特点，在几个迭代之后，我们就会得出一组相对数据（如35个故事点），来衡量团队的生产效率。根据这个生产效率，我们可以很容易地快速进行相对估算，不需要转化为具体人天就能得出结论。</p>
+<p>当然，如果这是你的第一个迭代，没有经验数据，可以尝试转化为人天找找感觉，或直接根据团队的直觉来做出判断。</p>
+<p>如果你是在传统项目中做扑克估算，那么我的建议是可以直接用人天来进行估算，虽然不如相对估算那么便利，但至少可以获得各种好处。</p>
+<p>▷ 扑克估算有什么好处</p>
+<ol>
+<li>团队一起做估算，估算更全面细致</li>
+</ol>
+<p>在传统的项目管理中我们也会做估算，WBS分解后完成任务分配，然后每个人估算自己的。如果每个人只对自己的那块比较熟悉的话，估算结果往往会有欠考虑，特别是相关性较强的模块，会出现较大误差，从而为项目后期埋下潜在风险。</p>
+<p>在用扑克估算法时，一开始我们特意不进行任务分配。对于每个故事，都会由全员出牌，包括各个模块的开发及测试，每个人从自己角度出发想问题，互相补充。比如在扑克估算时，测试的成本会被自然地考虑进去，作为一个整体来衡量。对于测试成本高的故事，大家会一同来考虑进行哪个层级的测试更为合适，单元测试、API测试，还是UI测试？这样涵盖了各方成本估算的结果自然会更全面、更细致。</p>
+<ol start="2">
+<li>团队一起做估算，需求探索更深入</li>
+</ol>
+<p>实践中我们会发现，真正到了让你给出预估的时候，就会有各种各样的问题冒出来。这个需求到底要不要做，是否要满足哪个条件，等等。扑克估算让这个需求探索的过程公开化，通过公开讨论，在早期进一步挖掘和明确需求，帮助我们将需求探索进行得更为深入。</p>
+<ol start="3">
+<li>团队一起做估算，有助于优化解决方案</li>
+</ol>
+<p>大家一起亮牌，经常会有不一致的情况出现，比如一个人出5，另一个人出40，这个时候往往是团队成员间交流解决方案的好时机。问问你的团队，为什么相差这么远，这样的讨论能够帮助大家找出最优的解决方案，并在团队中迅速共享。</p>
+<p>▷ 如何进行扑克估算</p>
+<p>团队应该如何进行扑克估算？在火龙果软件的网站上，《敏捷扑克估算》这篇文章配合实例有非常形象的说明。（见图1-6，文章请见<a href="http://www.uml.org.cn/SoftWareProcess/201108264.asp%EF%BC%89">http://www.uml.org.cn/SoftWareProcess/201108264.asp）</a></p>
+<p><img src="https://gitee.com/threecornerstones/ThreeCornerstones_Pic/raw/master/uPic/AJmz00.png" alt="AJmz00"><br>图1-6　扑克估算</p>
+<p>▷ 后记</p>
+<p>在这篇文章成文三年多以后，我回顾自己亲身经历及旁观的大小项目，关于估算及扑克估算又有了新的认识。在实际实践过程中，很多项目都尝试过文中所述的这种扑克估算方法，由于其形式新颖活泼，引入时普遍广受欢迎，也确实带来了如上所述的种种好处。扑克估算让各个角色围绕时间预估，增进了彼此之间的沟通对话，将潜在的冲突公开化、台面化，让大家去充分碰撞，然后用一种近似游戏化的方式再去化解掉，这可以说是扑克估算最为精髓的地方。</p>
+<p>但同时我们看到，在长期演化过程中，能坚持一直用扑克估算的项目少之又少，多半新鲜劲儿过去就走回老路，怎么简单怎么来。是不是扑克估算终究花哨大于实用呢？实际倒不尽然，说到底，所谓的扑克估算，只是一种估算的招式而已，所起到的作用并不只是为了得到估算结果，而是其带来的种种附加效应。</p>
+<p>而至于这些招式，用在什么样的场合，发挥什么样的作用，则完全取决于修炼者自身的把握。用不好，会觉得不过就是花拳绣腿；而真正用得好的，则会慢慢将招式内化。我所见到的一个团队，在尝试扑克估算一段时间后，逐渐形成了估算会议上多方碰撞的传统，然后渐渐地他们发现自己不需要扑克了。因为一旦这种对话机制建立起来了，没有这个道具的参与，对话也能正常进行。虽然最终看起来似乎并没有坚持做扑克估算，却已内化了其精髓。</p>
+<p>以上就是目前我对于扑克估算这个话题的简单认识，希望对各位读者有所帮助。</p>
+]]></content>
+      <categories>
+        <category>项目管理</category>
+      </categories>
+      <tags>
+        <tag>项目</tag>
+        <tag>管理</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>给项目经理新手的五个建议</title>
+    <url>/1951394389/</url>
+    <content><![CDATA[<p>初为项目经理，一开始很难抓到重点。我们资深的项目经理从实战经验中提炼出的几点实用建议希望能为你拨开迷雾。</p>
+<p>我真正从事项目管理的时间并不算长，可掐指算算，经历的大大小小的项目也不少了。作为过来人，回想当时的自己，在摸索的过程中走过一些弯路，也幸运地得到过很多前辈的帮助和指点。以下浓缩的五条建议，有经验教训，也有心得体会，希望能给刚上路的项目经理（Project Manager，PM）新手们一些帮助。</p>
+<p>▷ 建议一　多想想项目到底需要什么</p>
+<p>“我们应该每天都开个站会沟通一下情况，另外这个工具也要换一个，××比这个好用多了。”</p>
+<p>有的项目经理拿到一个项目，上来就开始左突右攻，恨不得把十八般武艺都套上，结果很可能惹来不必要的麻烦，且收效甚微。接手项目之前，与项目中的重要干系人加强沟通，理解前因后果，多想想项目到底需要什么，对于项目的成功推进至关重要。</p>
+<p>每个项目都有它独特的需要，时间、成本、质量到底哪个因素更重要？各个角色目前的痛点在哪儿？哪些是最先需要解决的？哪些是隐藏的积弊？大家对项目管理的认知和接受度怎样？我要通过怎样的途径，全面推进，还是一步步改善？从哪个角度切入？这个蓝图是否清晰？是否与项目负责人沟通到位并达成一致？这些问题能够帮助你理清思路，从项目的真实需求出发，解决问题。</p>
+<p>▷ 建议二　不要凡事恨不得事必躬亲</p>
+<p>“跟某某说了几次，到现在还没做好呢！频频出问题，那个费劲，还不如我替他做来得爽快。”</p>
+<p>替别人代办他们本该自己做的事情，对于团队长期而言反而效率是最低的。新手项目经理要进行观念转变，从自己去做这些事，到想办法让别人去做好它。实际上，比起自己直接去做，影响他人去驱动一件事情，要难得多。简单来讲，成功地施加影响有三个要素：获知（Awareness）、动力（Desire）、能力（Ability）。事实证明，停留在浅层次的信息传达，比如单方面的工作交代，并不足以让人产生动力从而促成有效的行动。获取理解及认同，激发动力是项目经理努力的关键。最后，还要确保他有相应的能力来做好这件事情，例如初期提供一定的辅助、必要的培训等，能推动事情真正付诸执行。</p>
+<p>▷ 建议三　不要追在别人屁股后面做监工</p>
+<p>“好，我不亲力亲为，活儿都分出去了，我监督大家把事情做好吧。我先跑去问A，这个做好没有，A反馈说这事你得找B和C，于是跑去问B和C，一天下来各处跑遍了事情还是没个说法，反倒讨了一身没趣。我该怎么办？”</p>
+<p>其实，项目经理最该做的，是跟大家一起把事情从头到尾各个环节捋顺了，建立一套对应的流程规则，明确各个角色在过程中的职责，并获得大家的认同，让这个机制自行运转起来。记住应该是规则在约束大家的行为，而不应该是项目经理。当成熟的秩序在团队中形成之后，解放出来的项目经理，就可以更进一步，致力于目标激励、团队建设等更高层面的工作，变“赶”为“引”。</p>
+<p>▷ 建议四　言必信，行必果</p>
+<p>“刚进入一个项目，人微言轻，发给大家确认的邮件没人回，组织开会人叫不过来，多次提醒某人均被无视，提的建议没人在意，一个没有任何授权的项目经理菜鸟如何建立属于自己的领导力及影响力？”</p>
+<p>无权力下的领导力（Leadership without Authority）是弱矩阵结构下的项目经理必修的一堂课。适当的时候，懂得巧借力，会帮助你争取支持与重视，但要记住的是讨巧的东西必不会长久。要想建立属于自己的领导力，核心在于真正赢得团队对你的信任，建立自己的可信度，打造个人品牌。而信任的获取，靠的是一件件事情中一点一滴的积累，没有捷径可走。</p>
+<p>首先，在专业上做足功课，要求别人做的事情，自己要做得更专业，起到表率作用；再者，言必信，行必果。学会为每次会议、每次发布、每个跟进事项做收尾，发出去的邮件、自己说过的话，哪怕没人记得，也要有始有终，自己给自己一个响应，给大家一个交代。</p>
+<p>▷ 建议五　不一定要强势，但一定要内心足够强大</p>
+<p>一个专业的项目经理会尽可能让自己客观、公正。但无论多么客观，你都会遇到形形色色的人，持有形形色色的世界观和人生观，一定会有一些麻烦，最终归结于“人”的问题。哪怕你已经尽全力尝试，依然无法改变某些人认同你的观点，有些思维方式根深蒂固，怎么办？</p>
+<p>这个问题一度让我受挫，但经历了几次类似事件之后，我渐渐明白，我无法改变他人，我甚至不应该试图那么去做！真正应该和可以改变的只有我自己！于是，我学会了允许和接受这种差异的存在，并与之共处；我学会了求同存异，找出一致的地方并努力放大。一个好的项目经理，不一定强势，在一些事情上可以让步、可以妥协，但内心一定有自己的坚持。</p>
+]]></content>
+      <categories>
+        <category>项目管理</category>
+      </categories>
+      <tags>
+        <tag>项目</tag>
+        <tag>管理</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>项目管理境界</title>
+    <url>/3582388260/</url>
+    <content><![CDATA[<p>项目管理工作入门易，但出色不易。成为优秀的项目经理是否有规律可循？本文从三重境界说明项目管理循序渐进之道：做项目，懂业务，懂人。做项目是让项目进行下去，懂业务是知其然知其所以然，懂人是能够在利益相关人满意的基础上交付项目。</p>
+<p>上周五和一位刚刚开始做项目管理的新同事聊天，就如何开始项目管理生涯、如何做项目计划、如何引导项目站会、如何克服自我简单粗暴强势的管理风格等问题进行沟通和交流，不知不觉间一两个小时就过去了，聊到了不少建议和我的一些个人经验。面对面的沟通往往口慢而思维快，可能无法全面而系统地表达。趁着周末在家闲来无事，和着江南烟雨时节的安静，回顾自己过去近10年的项目管理经历，概括出项目管理的三重境界：做项目，懂业务，懂人。不同的人、不同的经历、不同的公司、不同的行业对项目管理的境界都会有不一样的理解和看法，这些仅仅是我个人粗浅的总结，欢迎大家拍砖、反馈、交流。</p>
+<p>▷ 境界一　做项目</p>
+<p>每个人的项目管理生涯都开始于交付一个一个小的项目，也许某一天上司安排了一个项目给你，并要求在某某日期前上线、实现一堆功能。用项目管理专业术语讲就是需要在满足项目铁三角（范围、时间、成本和质量）的情况下交付项目。</p>
+<p>紧接着就开始紧锣密鼓地执行项目了，WBS、项目计划、站会等一般项目管理的工具、最佳实践都用上，基本上只要认为挨着边的都用，使出了浑身解数和十八般武艺，甚至出卖个人的“色相”和美食与项目组成员搞好关系，因为此时满脑子想的是我不能让领导失望，要全力以赴地准时交付项目。记得我自己在第一个项目交付过程中，还不知道什么是项目管理铁三角、不知道敏捷，只是根据以前的耳濡目染和对相关领域的了解，拉上几个人，分工、计划、绘制甘特图、跟踪进度、加班、项目交付、完事儿，一系列工作做下来发现也能保质保量地交付项目了。当时就想项目管理不怎么难嘛，只要跟着计划走，把既定的事情搞定就可以交付项目了。难道项目管理真的这么简单吗？</p>
+<p>对于一个定义非常清楚、一次性的项目这么做应该没有什么问题，这也是项目管理的最起码的要求，概括而言，就是在项目管理的铁三角的相互制约下交付项目，如图1-1所示。这一境界的项目管理能够满足基本要求，但往往很多时候基本相同的项目团队成员在做完一个项目后还需要继续做后续的项目，甚至还是相同的项目发起人，那么在这种情境下需要步入后续的境界二、境界三，而不仅仅是境界一的“一锤子买卖”了。</p>
+<p><img src="https://gitee.com/threecornerstones/ThreeCornerstones_Pic/raw/master/uPic/bxHECu.png" alt="bxHECu"><br>图1-1　项目管理境界一的铁三角</p>
+<p>▷ 境界二　懂业务</p>
+<p>在这层境界中，项目管理的介入时间点需要前移，参与项目立项前的讨论。理解业务，能够成为业务部门可以依赖的左膀右臂，而不仅仅是被动地接受项目安排，根据设定好的铁三角约束条件交付项目。你需要从业务的角度出发，去引导和参与规划、定义项目，提炼出项目，化被动为主动，清楚地知道为什么立项这个项目，它所带来的业务价值是什么，是通过衡量哪些不同方案和利弊后才做出这样的选择的，外部环境有什么样的制约。项目的最大风险是公司内部风险还是外部市场/政策风险。只有自我认同项目的价值，才能在后续项目执行、讨论过程中遇到问题时能够说服其他项目成员，也能够获得其他人对项目目标的认同。</p>
+<p>虽然说互联网领域瞬息万变、唯快不破，但仍然可以引导业务部门做出一段时期内的规划图（roadmap）（如1个月到3个月的规划），促使业务部门、从业务发展的角度去思考未来一段时间该领域最重要的事情是什么、项目做成后将有什么样的收益。项目经理在这期间应该参与讨论，并发挥引导作用，引导建立该业务领域的重点事项规划图，然后根据具体情况设定不同优先级的项目，并进行相应的项目管理和交付。</p>
+<p>图1-2是笔者组织参与的公司某部门的月度规划图讨论会的一个实例。在这个会议中，业务部门主管、公司高层对仓储物流现状、未来的规划进行沟通和讨论而形成如图1-2所示的结论。</p>
+<p><img src="https://gitee.com/threecornerstones/ThreeCornerstones_Pic/raw/master/uPic/gndtJe.png" alt="gndtJe"><br>图1-2　某部门月度时间规划图</p>
+<p>在这一层级的项目管理范畴中，需要在境界一的基础上加入对“业务部门的持续发展”的理解。项目经理能够想业务之所想，从业务角度出发去做项目，也能够权衡项目对业务部门的重要性，概括出如图1-3所示的项目管理约束条件集。</p>
+<p><img src="https://gitee.com/threecornerstones/ThreeCornerstones_Pic/raw/master/uPic/bT7Jd4.png" alt="bT7Jd4"><br>图1-3　项目管理境界二的铁三角</p>
+<p>懂业务不仅是指对业务领域熟悉，还包括对实现其业务需求的产品方案的了解，知道使用哪些技术来实现，以及对技术实现过程中的难点和重点需要有清晰的把握。例如，要想熟悉仓储物流业务，就需要去仓库参加定期盘点、打包、理货、上架、入库审核等一系列的操作，才能真正对业务有深刻的理解。话说京东创始人刘强东每年都要当一天的快递员，为客户亲自送货上门，为的就是了解系统、熟悉基层业务。</p>
+<p>▷ 境界三　懂人</p>
+<p>同一业务领域中前后不同项目参与的人员基本相同，但人员的诉求各不相同，如果能在项目的交付中结合个人的诉求，既能交付项目，同时也能满足项目成员的个人发展要求，将是大家乐于参与的项目。例如，测试同事希望通过参与API接口测试的相关自动化测试开发工作，来提升自己未来的市场竞争力，项目经理可以考虑在时间要求不是那么严格的项目中安排相关的自动化测试工作。</p>
+<p>另外，需要带着同理心去交付项目，“士为知己者死”。例如，一起和项目团队共同加班，对产品方案一起沟通讨论。又如，在强制要求996工作制的部门中就不要再想方设法去压榨项目时间了，因为大家已经处于一种比较高压的状态中，此时应该想想如何为项目减压，建立“防火墙”机制，如通过项目优先级的调整、人力聚焦于重点项目来使非重点项目的节奏稍稍缓和一点，让人员轮番参加重点项目，将马拉松变成一站一站接力赛。</p>
+<p>总结起来，项目经理要活儿好、让人满意、及时进行“上下左右”不同对象的汇报沟通，从做项目到关注业务的发展、再到对人的关注。因此对这一境界的项目交付结果的衡量还需加上利益相关人的满意度，拥有一种平衡组织中不同人诉求的能力（见图1-4）。</p>
+<p><img src="https://gitee.com/threecornerstones/ThreeCornerstones_Pic/raw/master/uPic/ewCQOw.png" alt="ewCQOw"><br>图1-4　项目管理境界三的铁三角</p>
+<p>《孙子兵法》中说：“水因地而制流，兵因敌而制胜。兵无常势，水无常形，能因敌变化而取胜者，谓之神。”项目管理也一样，从做项目、懂业务到懂人虽然是一个递进的过程，但对于不同的环境仍然需要灵活应变，在不同的组织环境中需要将重点放到不同的境界。</p>
+]]></content>
+      <categories>
+        <category>项目管理</category>
+      </categories>
+      <tags>
+        <tag>项目</tag>
+        <tag>管理</tag>
+        <tag>项目管理</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>大学入党</title>
+    <url>/2020401827/</url>
+    <content><![CDATA[<p>先说入党的积极意义：考公务员有优势；考选调生有优势；如果你是农村户口，村里逢年过节党员还有福利可以领取；其他情况则是个加分项，不过对于志在出国留学甚至移民的同学们来说，就没必要争取入党了。入党从本质上来说是一件非常严肃的事情，党员的潜在意义是“你是中国执政党的组成人员”，你必须身先士卒，起带头、模范和表率作用。所以入党积极意义的理由就很明显了：公务员和选调生都是国家的工作人员，自身素质必须过硬，政治理想必须坚定。</p>
+<p>一般来说，入党的程序如下：递交入党申请书——上党课或者大骨班培训（即“大学生骨干培训班”）——被选为预备党员——预备期满一年转为正式党员。有的学校里入党必备的条件是你至少要有一个校级奖励；必不可少的程序则是需要撰写很多书面材料，等大学毕业时这些材料将装入你的档案袋。总之，要遵循两点：第一，审批很严格，材料时间要注意不要出错；第二，入党材料是一种公文体裁写作，要避免夹杂过多的个人因素。</p>
+<p>成为党员的同学一般绝大多数是班委和表现突出的同学。理科班和文科班情况不一样；公安专业同学和文科其他专业又不一样；学校分配到的名额则取决于你们学院在学校中的地位。</p>
+<p>入党的最佳时机是大一和大二，这个时候选择入党人选还有严格的标准可言，入党人选还比较优秀；而到了大三、大四时，想入党的同学则需要千方百计、想方设法的费工夫争取个预备党员了。所以，争取在大三之前努力成为优秀生，稳妥入党。</p>
+<p>小结一下，入党是一件非常积极严肃而有意义的事情，必须从思想上高度重视、认真对待。</p>
+]]></content>
+      <categories>
+        <category>大学生活</category>
+      </categories>
+      <tags>
+        <tag>大学</tag>
+        <tag>入党</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>大学班委</title>
+    <url>/4205451457/</url>
+    <content><![CDATA[<p>班委是大学中比较重要的一个角色，理由：1.会锻炼你的管理能力与沟通能力；2.在综合素质测评或者保研中是一个加分项；3.五四评优的“优秀团干部”评选只能在“团支部班委构成”中选；4.担任班委的经历对于你毕业之时考取选调生来说基本上是一个必备条件，并且对于考取公务员、求职则是一个加分项。</p>
+<p>一般而言，班委竞选最初是在刚入学之初，之后会有一年一次或者两年一次的改选。能否成功竞选，会有两种情况：由辅导员指定或由班级同学公开投票选举；能否成功竞选的决定性因素还有：你在军训期间的表现+竞选时的发言表现。因此军训时给大家留下一个“先入为主”的好印象很重要。</p>
+<p>班委一般由团干部和班级委员组成，前者由团支书、组织委员和宣传委员组成；后者由班长、副班长、学习委员、生活委员、文艺委员和体育委员组成。班委是班级同学和辅导员之间的沟通媒介。班委角色的重要与否取决于辅导员。<br>如果开学后你们班的选举出现以下这种情况：某位同学的班级投票很高，但是最后他落选了。原因可能有两种情况：第一，辅导员那里人选已经内定了，选举只是走一个过场；第二，辅导员并不认可这个被高票选出的同学。其实班级里最害怕的情况是一切由辅导员说了算，但杜绝这种情况也有办法：建立制度。班委作为老师与同学之间沟通的媒介桥梁，从本质上说起着至关重要的作用，而“传话筒”功能能否发挥好，为同学谋正当利益，与自身建设也有很大关系。例如，假如你担任了班委中的一员或者不担任任何职务，可以跟其他班委商量或者联合其他同学提议建立一个“班级小组委员会”，这个小组委员会是你们班的最高权力机构，有对抗辅导员的权力。这样做的好处是：班委不至于无任何作为，也便于不担任职务的学生为自己争取正当利益。以此作为比喻很形象：班级所有成员是全国人大代表，班级委员会是全国人大常委会，班委是公检法，辅导员则类似我国国务院。良好的制度会省去很多不必要的麻烦，公平正义也更容易达成。</p>
+<p>如果你成了班委，要注意班委里也可能有小帮派的，这种现象也许在大学刚开始不是很明显，等到了大三、大四迹象就慢慢显露出来了，有些班委会抱团为自己的小团体争利；暴露原因是：大一大二期间该得的入党、奖学金、荣誉称号等基本都得到了，需要班里同学投票的机会也很少了，这时候为了自身的团体利益去“得罪”其他无关紧要的人也不重要了，当然不是所有班委都这样，但确实有这样的现象存在。如果你是班委，如何进行利益衡量取舍也是你个人价值观的选择，不予置评。</p>
+<p>接下来说说几个班委的不同作用。一般来说，辅导员会格外看重团支书和班长这两个职位，团支书、班长、副班长相当于“三剑客”，班里任何重要的事情都必须经过他们三人知晓、同意，方可施行。但“团支书”这个职位又有其特别之处，它的重要性一般来说取决于辅导员的重视程度：若辅导员重视你，许多事情交待给你办，帮同学做事，大家会记在心里的；如果你不受辅导员重用，那么你就要想办法了，方法无外乎两种：第一，虽然职位重要，但你无所作为，也不帮大家，自然在同学心中你就没什么威望可言，所以，必须有所作为；第二，你可以主动出击，因为你是“团支书”，所以还是有一些权力的，很多事情你做起来就名正言顺，“五四”青年节或者“一.二九”运动都是表现自己的好机会，言下之意是：你来主动策划活动，而非只等辅导员安排任务。其实你从中得到的锻炼和收获远比辅导员的差遣和安排来的多得多。策划活动需要你的号召力、协调能力、领导能力和活动的吸引度考究以及得到上级（包括辅导员，每个学院/系还有学生会、团委老师）的支持等等一系列因素，另外还有组织委员和宣传委员，他们可是你的嫡系后盾，你的价值体现在于能够团结一切可以团结的力量。副班长在这里就不提了，他的职责是协助班长和团支书的事务，地位毋庸置疑非常重要。再者就是学习委员和生活委员。这两个职位是事情最多，最辛苦，与学习有关的一切事务，如四六级报名、发放教材、统计成绩、补考报名等，都由学习委员来张罗；贫困补助、班费管理、学生证等证件补办等则都由生活委员来打理。这两个职位的最大特点是：虽最累但也最得人心。尤其是生活委员，即使你不善言谈，但勤勤恳恳、兢兢业业地为同学着想操持生活，每个人都能深刻地感受到。</p>
+<p>所以至此，我的建议是：如果没把握当上团支书或者班长这等最重要的职位，那么当个学习委员或者生活委员也是上乘选择；最后才考虑文艺委员、体育委员、宣传委员、组织委员这等职位（前两者的竞选，最好具备一技之长）。</p>
+]]></content>
+      <categories>
+        <category>大学生活</category>
+      </categories>
+      <tags>
+        <tag>大学</tag>
+        <tag>班委</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>大学老师</title>
+    <url>/3121840018/</url>
+    <content><![CDATA[<p>代课老师一般只带你一学期的课程，不过大学的英语老师还有可能带课四个学期。代课老师一般会在第一节课给出他/她的联系方式，电话或者邮箱。大学老师手中掌握着丰富的资源：各科的科学学习方式、专业浏览网站、该学科的前沿问题、拥有国内本专业其他老师的人脉关系。和老师相处必须牢记的一个原则：尊师重道。尊师表现：上课前擦干净黑板、积极回答老师的问题、认真完成作业。虽然这些都是陈芝麻烂谷子了，但熟知不代表能做到，做到不代表能坚持做下来。师生之间本该互相尊重，老师能多角度的了解你是一个怎样的人，因为他/她在意你。重道表现：敢于和老师交流学术问题，向老师提问，质疑老师。好老师喜欢问问题的学生，所以你不要担心“问题多了老师会烦”诸如此类的问题。</p>
+<p>和老师融洽相处，对于你今后个人的发展没有坏处：推免需要找副高职称以上老师写推荐信；申请出国留学需要导师写推荐信；老师有可能会带着你出去参加本专业的国内国际会议；找工作老师可能会提供一些内部消息等。这里不是强调你要抱着功利之心去和老师交往，这些益处都是相处融洽之后的衍生效应，有些事情你做到了自然就来了，但前提是自己要努力，让老师觉得你是一个值得帮助并且有前途的人。</p>
+]]></content>
+      <categories>
+        <category>大学生活</category>
+      </categories>
+      <tags>
+        <tag>大学</tag>
+        <tag>老师</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>大学学生会</title>
+    <url>/3332368809/</url>
+    <content><![CDATA[<p>学生会有两类：院（系）学生会和校学生会。校学生会是全校同学的学生会，竞争相对会更激烈；院（系）学生会直接和院、系领导打交道，对你今后的大学生活帮助会很大。如果你有当校学生会主席的计划可以先去校学生会锻炼下，一旦胜任对于你是一个很好的磨炼，认识的人会很多，跟各个学校之间交流机会也多，学校内部消息知道的也及时，信息的获取某种意义上讲就是财富。院系的学生会成员接触的是院、系领导和老师，评优、入党会优先，遇到困难也好找领导帮忙。相对而言，校学生会综合性很强，即使校老师想帮你，可能有时也有心而力不足，毕竟校团委老师和你们院系的院长或者党委书记、代课老师之间并不是直接的上下级隶属关系。</p>
+<p>有人会跟你说学生会很黑，不要惊讶。学生会里面的确会有很多利益牵扯，班委之间有时也会这样。道理很简单：奖励名额有限，每个人都想拿到，能力相差无几的情况下只能凭谁更讨人喜欢了。所以你能做的是先修炼好自己。古话说的一点也没错：打铁还需自身硬；其次适当的保护自己。害人之心不可无，但防人之心必须有。这里点到为止。</p>
+<p>跟这些学生会的部长、主席除了工作上有来往之外，如果能建立起感情不浅的私交就更好了。那怎样建立私交呢？这就要看你的处事风格和方法。学会适当地向异性领导示弱很重要。 总之，一句话，如果能在学生会如鱼得水，你会比别人更快的成长进步~</p>
+]]></content>
+      <categories>
+        <category>大学生活</category>
+      </categories>
+      <tags>
+        <tag>大学</tag>
+        <tag>学生会</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>大学辅导员</title>
+    <url>/3723059855/</url>
+    <content><![CDATA[<p>大学中的辅导员和高中时班主任的角色大致相同，唯一不同的是辅导员不会给你上专业必修课，也不可能教授大家“形势与政策”这门课程。但是辅导员手中掌握着你大学四年评优和入党的几乎全部权力。</p>
+<p>辅导员，可以说是大学四年所有接触的老师中和你相处时间最长的，因为任课老师可能只带你一学期的课程，而辅导员将要陪伴你四年。</p>
+<p>辅导员的人格魅力因个人品质的高低而有不同，与他/她相处的方式则因人而异，但千万要记住一点：不要得罪他/她。细想一下，道理也确实如此：无论你对错，得罪领导，某种意义上你将都是错的。</p>
+<p>辅导员对于每个人在大学的成长起着至关重要的引导作用，而引导作用的好坏与其性格特征呈正比关系。倘若你遇到一位性格温柔的辅导员，那么恭喜你遇到一位好沟通的老师，因为沟通才是解决问题的关键；如果你遇人不淑，对方性格比较暴躁，你沟通时必须小心翼翼，免得踩着雷区，但是这类性格特征的辅导员对你来说也是一个磨练：沟通技巧与心理素质会因此而有所提升。</p>
+<p>想要与辅导员处得好，就要讲究相处方式。首先，刚入学之初的军训期是一个好时机：此时大家都忙于军训，这时的班级概念并不明显，更多的是以“连”、“排”、“连长”的方式出现。所以这对于有心想和辅导员走近的学生来说就是一个好机会，因为军训期辅导员需要了解学生的基本住宿信息：分布楼层、本专业所住的宿舍号等。这个期间对于你们双方来说是一个相互了解、认可的阶段，如果办事得力、稳妥将给老师留下一个好的第一印象。其次，军训期过后的第一学期也是个不错的机会。第一学期，其实是辅导员和学生之间真正沟通、熟悉的最佳时期。因为那时大家谁也不认识谁，你去主动接近老师，老师自然也不会拒你于千里之外。因为“伸手不打笑脸人”，更何况你的主动帮忙呢！万事开头难，第一学期辅导员事情比较多，他/她一个人是忙不过来的，确实需要人手，如果你抓住了这个机会，那么你就先人一步，时机有时决定了一切。再次，如果前两个时机你都没有抓住，但是仍想和导员走近一些，那么你就需要有极大的耐心和毅力，以平和的心态坚持跑导员办公室，你的努力随着时间流逝会逐渐被导员看在眼里，记在心里的。人心都是肉长的，老师在评优过程中面对同时被提名的那么多学生中自然会倾向于你，因为他/她更了解你，知道你是怎样的一个人。最后，你若同时为班委和学生会成员，要平衡好两者之间的关系，掌握好度。因为有的辅导员并不喜欢自己的班委把精力过多的放在学生会的事务上，因为相对的班级事务就用心少了。工具方面：自己最好买一部比较好的手机，保持手机畅通，这样辅导员能在第一时间联系到你。如果辅导员给你打电话有两三次没有联系到你，会给她/他造成一个不良心理预期。</p>
+<p>与辅导员相处切记的一点是：不要抱着过于功利的心去接近导员，导员也曾经当过学生，知道你心里的那点小九九。理由：1.假如你是辅导员，你愿意真心帮助带着功利心接近你的人吗？2.你将要和辅导员相处四年，人生中最美好的时光你却一直攻于算计，即使你得到了你想要的，日后也会有遗憾的一天，你的人品也会受到影响。同学们也都是明白人，到毕业的时候，你是怎样的人大家心知肚明。3.最重要的是，辅导员也是平凡而普通的人，真诚待人才是相处之上道，如此方能长久。你若时刻抱着功利之心，会活得很累，也得不到真正的快乐。</p>
+]]></content>
+      <categories>
+        <category>大学生活</category>
+      </categories>
+      <tags>
+        <tag>大学</tag>
+        <tag>辅导员</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于友情</title>
+    <url>/1596267562/</url>
+    <content><![CDATA[<p>上大学之后，你会接触到各种各样的同学，一个班的、一个院系的、甚至外校的、同专业或者其他专业的。大学友情和高中友情有一个不同点：大学中的朋友可能会和你的志趣更相投，但不变的是你依然能在众多的同学中找到亲密无间的哥们或者闺蜜。大学里交的朋友可能是你以后事业中的伙伴，工作上的帮手。志趣相投、性情一路的朋友最靠谱，他会理解你、帮助你、甚至一起闯荡江湖等等。大学是人一生中交到真心朋友的最佳时期，你能遇到敞开心扉、真诚的同学的概率比你走出校门、踏入社会的概率大的多；以后随着年龄的增长，双方要考虑的因素会有很多，戒备心也比做学生期间多。</p>
+<p>因此如果能在大学里收获N段真诚的友谊，你绝对是赚到了，日后必将成为美好的回忆和受益终生的财富。</p>
+<p>如果你所在大学是大学城中的一所学校，那么广交朋友的可能性更大，眼界、见识也将更加开阔，不要白白浪费了“大学城”的便利好资源，积累人脉，为以后铺路，俗话说“多一个朋友，多一条路”嘛。</p>
+]]></content>
+      <categories>
+        <category>大学生活</category>
+      </categories>
+      <tags>
+        <tag>大学</tag>
+        <tag>友情</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于亲情</title>
+    <url>/1889226578/</url>
+    <content><![CDATA[<p>上大学之后和父母在一起的机会比以前少许多，如果你仔细算一下，会发现上大学的四年是你和父母在一起最方便、最长久的四年，毕业后你有了工作、家庭，陪父母的时间会变得更少。父母是你在这个世界上最靠谱、最坚实的后盾，永远不会抛弃你，时刻在远方牵挂着你。可能你上大学后，说的最多的一句话会是：“爸妈，我没钱了”，“哦，没事，等你爸回来了让他给你汇钱去”。看似这么普通的对话，其中包含着无数的感动和关心。所以，没事多给爸妈打打电话，聊聊天，跟他们说一下你在学校的情况，也许他们听不懂，但打电话的重点在于让父母了解你的近况，知道你过得好不好，适应不适应。不要等到没钱时才想起父母。上大学之后，要学会去体谅父母，学会报喜不报忧，父亲节、母亲节时记得表达爱意。父母最大的期望是你能够身体健康，生活愉快，其次才是你的学业成绩。</p>
+]]></content>
+      <categories>
+        <category>大学生活</category>
+      </categories>
+      <tags>
+        <tag>大学</tag>
+        <tag>亲情</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于情操品味</title>
+    <url>/2116127152/</url>
+    <content><![CDATA[<p>上大学之后，不论男生或者女生，首先要明白的一点是：你已经成人了，应该逐渐有大人的样子，要注重衣着品位、讲话涵养、办事周到。穿衣打扮是一门很实用的学问，衣服不见得越贵越好，但你首先要会搭配，尤其是男生；女生不需要浓妆艳抹，但等到毕业之时起码应该学会给自己化个得体的淡妆，妆容体现着一个人的精气神，同时也是对别人的尊重。讲话是一门技巧性很强的学问，诸葛亮舌战群儒的故事都听说过，要学会把自己想要表达的内容说得漂亮。会表达的人不是天生就具备这种能力，而是在后天实践中逐渐锻炼出来的。办事周到则体现出一个人的思维缜密性，如何做到圆满地解决问题是需要用智慧去思考的，“三思而后行”说的就是这个理。</p>
+<p>大学里不光要会学习，也要会生活。从某些角度看，学会生活的意义比学得好更重要。记住，是生活，不是生存，虽然仅是一字之差。你应该学着去体验你想要的生活，这样做的意义是弄清楚自己的真正需求，学会自我调节。人生之路很漫长，路途中会发生各种各样的事情，有你想到的，也有在你预料之外的，你唯一能做的是：学会如何去面对。“压力”是你今后走上社会之后不可回避的一个大问题，掌握了自我解压之道你将受益终生。</p>
+<p>生活中不只有喝酒、吃饭、K歌这些司空见惯的玩法，大学四年生涯，你是自己生活的导演，你是主角，你想演什么由自己来决定。一场电影的时长有限，想表达的东西太多，这时学会选择就变得非常重要。大学一般都是在省会城市里，有些还在比较发达的地级市，如苏州大学、安徽财经大学等等。城市级别越高，相应能够提供的公共资源就越多，你要学会把这些资源为你所用。舞台剧演出、演唱会开唱、明星剪彩、自驾游、骑行、搭车旅行、陶艺、图书签售会这些以前你在电视上见过的，现在你都可以一一去实践，大学就是充满了无限可能，精彩由你来创造。如果你觉得这些花费有些高或者不太适合，可以找你适合的，你不去主动出击，机会是不会送上门的。这里推荐“豆瓣同城”，豆瓣本身就是一个以兴趣为集散地的网站，之前有些小众，但正因为小众所以沉淀了许多精彩内容，豆瓣同城就是豆瓣的一个品牌活动。在豆瓣同城上你可以发现一些自己感兴趣的活动，和你一起参加的又是跟你居住在同一个城市的人。参加这样的活动就可能会认识各个不同年龄段的人，会和各种各样的人相处。但因为大家是因为一个共同的兴趣或者爱好才聚在一起的，所以相处起来容易些，好沟通，这就是有共同话题的便利。“豆瓣同城”是以线下活动为主的形式，此外豆瓣上还有大量的线上活动，你也可以去发现。</p>
+<p>上大学之后，大部分人都有电脑，要学会充分利用电脑。男生一般玩游戏，女生则看电影、电视剧等。不能全盘否定玩游戏、看电影、电视剧毫无意义，有的人是专业的游戏玩家，在游戏领域玩出了一片天，有的人则纯粹把游戏当做生活消遣的全部；看电影、电视剧要有所选择，烂片尽量少看，长不了见识还浪费时间。一般来说国外的电影、电视剧比较好，这里推荐两部适合女生看的美剧：《老友记》（英文名： Friends）和《绯闻女孩》（英文名：Gossip Girl）。推荐理由：会触动你的爱情观、友情观、亲情观。还有一部美剧推荐给男生，《生活大爆炸》（Big Bang）。看美剧的同时你能深刻体会到：等待的意义。如何充分利用电脑，放在第四部分：技能——网络素养中。</p>
+<p>大学上完后你要学会：自己决定如何生活。</p>
+]]></content>
+      <categories>
+        <category>大学生活</category>
+      </categories>
+      <tags>
+        <tag>大学</tag>
+        <tag>情操品味</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>大学爱情</title>
+    <url>/3411760123/</url>
+    <content><![CDATA[<p>恋爱是大学选修课，不一定人人都要谈恋爱，但至少要经历爱情萌芽，思考爱情这个话题，哪怕有过暗恋也好。如果依旧如高中般只读书，不恋爱，以“恋爱会耽误学业”诸如此类理由为借口，那只能说明你的平衡能力比较差，或者根本不会谈恋爱、不懂恋爱，一段好的恋情会促进双方的进步。谈恋爱其实也并不完全为了有个结果，兹认为毛主席的“不以结婚为目的的谈恋爱都是耍流氓”这句话有待商榷。恋爱可以让人成长，它会告诉你内心真正想要的是什么，教会你如何关心一个人，也会让你明白先学会爱自己，才会被别人爱。</p>
+<p>大学中的恋爱有两种：为了寂寞而爱；双方因彼此的吸引互相喜欢而走到一起。选择哪种恋爱，这需要问你自己的内心。</p>
+]]></content>
+      <categories>
+        <category>大学生活</category>
+      </categories>
+      <tags>
+        <tag>大学</tag>
+        <tag>爱情</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>大学兼职</title>
+    <url>/3441236400/</url>
+    <content><![CDATA[<p>满18岁之后你就是法律意义上的成人了，但独立生活的能力却不一定具备。大学是一个广阔的平台，在这里你就是主人。好多同学上大学之后，出于孝心和锻炼自己的想法，想通过兼职来减轻家里负担或者赚一些零用钱好攒钱旅行等等。但是，同样是兼职也有高低之分。这里的“高低”并不是指行业的贵贱，体面与否；而是指如果不智慧思考就胡乱找个兼职干，那就是低等的兼职。比如，你是学设计专业的，你却找了一个发传单的工作。再比如，你是学营销的，你却找了个家教的工作，虽然你在代理家教的过程中确实是用自己的知识赚钱，因为营销的本质是点对面，你这是在点对点的销售自己。评价兼职含金量高低的标准之一是：所做工作是否与你的专业相关；标准之二，所做工作是否能够弥补自己的缺点。比如，你性格比较内向，但是想变得稍微外向一些，敢于和陌生人交流，那选择去做销售或者发传单就是一个锻炼自己的机会。</p>
+<p>介绍一个名词：威客。威客的英文Witkey是由wit智慧、key钥匙两个单词组成，也是The key of wisdom 的缩写，是指那些通过互联网把自己的智慧、知识、能力、经验转换成实际收益的人，他们在互联网上通过解决科学、技术、工作、生活和学习中的问题从而让知识、智慧、经验、技能体现价值。 此外推荐两个网站，“猪八戒网”，它是比较有名的威客聚集地；“ 中国第一征集网”，它专门汇总收集全国各行各业的有奖信息征集资讯。成为一个优秀的“威客”，不仅可以赚到生活费，更重要的是得到了无数锻炼自己的机会。根据以往经验，设计类专业和IT类专业的同学成为优秀威客的可能性最大；还有文学专业的和广告学专业的同学。理由：活动LOGO征集多；软件外包需求多；文学作品征集多；广告语征集多。但“威客”一开始并不容易，它需要你的耐心和才华，所以也请做好作品被拒绝的准备。道理很简单：收益越大，风险越大。</p>
+<p>找兼职的途径还有其他四种：1.自己找；2.同学介绍；3.加入类似“兼职社团”之类的组织；4.找中介。一般来说，“自己找” 得看运气和你个人的沟通能力，最好找大型公司，如肯德基、德克士、麦当劳这些服务餐饮业，需要注意的是从事食品餐饮业的工作要求有“健康证”，区、省级卫生所就可办理，区别是办证速度和费用不一样，但相差不大。上面介绍的是线下的方式；线上方式则是上网从58同城和赶集网上找，但这些网站上发布的兼职信息鱼龙混杂，兼职招聘的分为“直招”和“中介招聘”，前者是指公司直接招人，未经过中介；后者是指你在网上看到的地址实际上是中介机构的办公所在地，你去应聘实际上是去交中介费，并非公司在招人，需要你仔细去甄别。识别办法就看招聘职位内容与公司名称、经营范围是否相符。其实你觉得合适的实际上大部分是中介。 “同学介绍”最划算，但不一定长久，稳定性相对差；加入“兼职社团”的同学，最好跟社长搞好关系或者跟这个社团里管理工作分配的人搞好关系，理由：“兼职社团”实际上是兼职者和用人单位之间的中介，它一边收取用人单位那边的佣金，一边收着社员的会费，两头赚钱；找兼职要评估其性价比，比如同样是8小时的工作时间，形象促销比普通促销就至少多赚50元以上；担任家教比大街上发传单就体面许多还收入高。而这些兼职的决定权就可能掌握在社长或者相关部长手里。“找中介”绝大部分是靠谱的，不过做得长久才划算。只是让你“先交钱后给工作”的做法让人不免产生疑虑，这些中介公司大都有着一个听起来高大上的名称：XXX人力资源公司，实际上这些公司从事的就是中介服务：依靠劳务派遣、人事外包等服务来进行盈利。交钱给中介之后，中介公司一般会让你加个QQ群、飞信、微信等，刚开始会每天给你发送第二天或者一段时间可能会有的兼职工作，例如五一小长假、端午节、国庆节、中秋节等这些法定假日恰是商家营销的好时机，所以这些商家一般都会提前做好促销工作的安排部署。至于之后是否还会给你发送免费兼职信息只能看你的个人表现和这些公司的业界良心了。如果你态度积极，一有兼职信息就主动报名，中介公司可能会继续给你发。所有中介公司给你宣传时，会讲这么一句话：你交的钱干一次兼职就赚回来了，而且还有盈余。这句话不假，但是如果它只提供你一次兼职信息，之后不提供了或者质量很次，你又懒得去找它，那它就赚了，有些中介公司就是这么赚钱的，鼠目寸光。所有事情都事在人为，兼职也是如此。长远之道是：你应该思考如何与你干兼职的同事融洽相处，让管理者记住你。这样他们下次有活动时会继续找你，同时你也多了一类朋友、一类人脉。这样即使中介公司不管你，你也不至于饿死、干等。现在百度平台上提供了一种赚钱途径：根据你所写经验的浏览次数决定你的收益多少，提现最低为100元；这个板块叫“百度经验”。如果你在某一领域有着独到、靠谱的经验，与大家分享的同时还有收入。但利用“百度经验”赚钱的影响因素很多：你的文章质量+你的营销能力+搜索指数等等；点击量过少，收入也相应的微乎其微。</p>
+]]></content>
+      <categories>
+        <category>大学生活</category>
+      </categories>
+      <tags>
+        <tag>大学</tag>
+        <tag>兼职</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>大学宿舍</title>
+    <url>/3481019284/</url>
+    <content><![CDATA[<p>有人说大学四年最要感谢的是宿管科阿姨，因为是她让你收获了一生中最珍贵的友谊，其实这句话并不绝对正确，绝对正确的前提是大学阶段你与最好的朋友生活在一个宿舍里。</p>
+<p>目前高校的宿舍安排一般会依据每个人入学时的学号将本省的安排一起，外省的安排一起，还有一种情况将本、外省的混合安排在一起。不论你所在宿舍是外省、本省或者混合宿舍，你首先要铭记一点：宿舍里的每个人将要陪你共度大学四年或者五年（医学等专业）的青春。此观念熟记于心并真正理解之后，还需要注意以下几点：</p>
+<p>1.不要随便翻动别人的东西，这是集体生活的最大禁忌。以关系好、对方不介意作为理由的均是自欺欺人。</p>
+<p>2.不要影响他人正常生活。集体生活中最需要注意的是要换位思考，不能方便了自己而给别人造成麻烦。当今时代大部分学生都是独生子女，个人主义很严重，其实他们有时也不是自私，只是习惯了家中的方便与霸道。如果你是独生子女，反思一下自身是否存在这个问题。</p>
+<p>3.建立自己的忍耐底线。人相处久了，熟悉了就会无拘无束，交流过于随意，因为你给外界传达的信息一直是：他们的行为还处于你的忍耐限度内。不过控制脾气是非常有必要的，但千万不要为了维持所谓的一团和气而牺牲自己的作息时间。所以，要明确友善表达自己的需求和想法，建立忍耐底线，建立的越早大家习惯的越早，互相了解后一切都不是问题。</p>
+<p>宿舍是你大学生活中唯一不会改变的。朝夕相处的四年间，你能学到很多：尊重人与人之间的差异性；学会包容。如果你用心发现，舍友身上肯定有你值得学习的地方。以我所在寝室为例：我从A同学身上学到了自信，她和我一样有些胖，但她的自信感染了我；B同学虽然看起来有些不务正业，整天看小说，但是她对小说的热爱在寝室中无人能及，我们平时遇到不懂的问题都会向她请教，因为她懂得多，从她身上学到了做一件你热爱并擅长的事会很有成就感，同时也会赢得大家的尊重；C同学很会穿衣打扮；D同学喜欢可爱系的东东，从她那里感受到“可爱有时会让人心情愉悦”。每个人身上都有你达不到的高度，你如果想让自己进步快一些，请向身边的舎友学习。</p>
+<p>舍友情是大学中一段宝贵的情感经历，离开时你才能体会到多么的珍贵。走出校门后，除了男朋友/女朋友和亲人之外，没有人会为你这样做了：给你带个饭；替你答个到；今天多少预报有雨，记得带雨伞；回来晚了给你打电话；专门给舍友带家乡特产；一起八卦班里的男生、女生；谈论校花、校草；你们有聊不完的话题……舍友，是大学一站最美的风景之一。</p>
+<p>但事情不是绝对的，如果和舍友实在相处不来，可能是你们性格不相投，做不了最好的朋友也可以做普通朋友，朋友不一定都在一个宿舍。</p>
+]]></content>
+      <categories>
+        <category>大学生活</category>
+      </categories>
+      <tags>
+        <tag>大学</tag>
+        <tag>宿舍</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>大学学长学姐</title>
+    <url>/2674924148/</url>
+    <content><![CDATA[<p>学长学姐毕竟至少比你多吃了一年学校的饭，知道得多，对学校的情况相对比较了解，某种意义上是你的指路人，他们不像老师，你不需要过多考虑尊师重道，架子小，好约，很少存在档期满了没空之类的问题。学长学姐可以作为你进入一个领域的推荐人，类似于现在找工作流行的“内部推荐机制”或者“绿色通道”。和学长学姐相处融洽，会给你的学习、生活上带来极大的便利。比如，学生会竞选期，如果现有学生会内部没有合适的人选，恰好学生会的部长、副主席或者主席认识某个学妹学弟并且认可他/她的能力，举荐这个人，那么他/她就可能会进学生会当个副部长。如果你想打听所在学校的保研制度，没有比学长学姐们更清楚的了；并且如果你毕业走向求职之路，而有些学长学姐都在工作岗位几年了，你想进入他/她的公司，求助于他们是最好的途径。首先他/她不会蒙你，其次他/她可以帮你推荐。你会发现有人帮忙，成事相对来说容易些。</p>
+<p>跟大家专门介绍“学长学姐”这部分，目的是想让你们清楚：朋友、同学也是要年级分层的，上了大学之后，自己一个人孤身在外，能帮你的只有身边的人；随着年岁的增长，你将要经历的事情也会复杂起来，其中涉及的因素有很多，解决问题时自然要考虑的也就多。有些问题单靠个人力量是无法解决的，必须要别人的帮忙才可以。比如，你的导师要做一个你所在学校的毕业论文调查，这件事情交给你来执行，你会如何做？假使你不认识大四学长学姐，事情会很麻烦。首先，毕业论文调查这件事情，被调查对象必然是大四学生，你不认识也要想办法去认识。但是你如果认识学长学姐，他们如果认识大四的学委或者班长，你就发个问卷链接事情就解决了。所以，朋友是人脉的最高境界。学长学姐毕竟比你资历深一些，比你能看透许多事情，他们也有自己的朋友圈，和你进行来往的一个很大因素是你这个人值得交。所以事情的关键还是使自己成为一个让别人认为值得交往的人。但是不论交友是出于兴趣还是为了日后的方便，人类本质上就是如此；史记《货殖列传》有云：天下熙熙，皆为利来；天下壤壤，皆为利往。</p>
+]]></content>
+      <categories>
+        <category>大学生活</category>
+      </categories>
+      <tags>
+        <tag>大学</tag>
+        <tag>学长学姐</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>大学社团</title>
+    <url>/2992509635/</url>
+    <content><![CDATA[<p>一、社团分类及特点</p>
+<p>社团大致可以分为学术科研类、生活兴趣类和志愿者类。</p>
+<p>1.学术科研类：高大上型。参加这类社团会让你提早接触科研，不论你是否有志于从事科研工作，参加此类社团绝对会让你收获匪浅，因为在这里，你能知道：</p>
+<p>（1）“科研”到底是干嘛，其实所谓的“科研”并不神秘；</p>
+<p>（2）“科研”人的生活状态是怎样的；</p>
+<p>（3）如何与老师更好地相处；</p>
+<p>（4）技术层面上，如何写申报书、如何设计课题；</p>
+<p>（5）手中有个项目是多么好的一件事；</p>
+<p>（6）认识各种牛人，最重要的是你们会互相深深的认可彼此的价值观，结交下人生中最深厚的友谊。这类社团含金量最高。</p>
+<p>2.生活兴趣类：接地气型。参加这类社团会使你的生活有个着陆点，当然并不是说你不参加此类社团，你的生活就高悬不止了。这类社团的好处是大家彼此性情相投，玩得开。</p>
+<p>（1）最有价值点：你的兴趣会渐渐发展成为你的特长。要知道，现如今不仅学得好重要，玩得好也很重要，起码会丢掉“书呆子”的头衔，最重要的是你的生活会充满色彩；</p>
+<p>（2）有一帮玩得尽兴的朋友。所谓“狗一样地学，绅士一样地玩”在此社团里面可以实现；</p>
+<p>（3）身体素质会变好，因为需要你劳动，不论体力还是脑力。</p>
+<p>3.志愿者类：最有爱型。参加这类社团的人大都具有奉献精神，或者是出于为了弥补之前的自私而选择加入（我当年就是这么想的）。加入此类社团之后你会经历各种与你日常生活比较有距离的事情，比如：聋哑人等残障人士爱心运动会、山区孩子支教、敬老院帮忙等等；它会丰富你的经历，让你重新思索你的当下人生，更加珍惜现在的生活。</p>
+<p>二、加入社团的注意事项</p>
+<p>1.选择标准：</p>
+<p>（1）基点：从自己的兴趣出发；</p>
+<p>（2）社团的名气/规模：一般来说，名气比较大的社团无论在管理、活动策划还是价值理念上都要好的多，缺点是每一次的活动不一定会照顾到你，可能会分批通知你参加；小社团有小社团的好，起码组织起来比较方便，人员到位齐；</p>
+<p>（3）看招新方式：一般来说，社团招新都在10月份左右，军训完之后为期一周左右的时间，用心的社团在招新方式上会别出心裁地设计，而有些社团则是敷衍了事。</p>
+<ol start="2">
+<li>准备自我介绍：缴纳社费招新结束后，社团基本上都会有新生见面会，届时你要做自我介绍。新生见面会一般先由社团相关负责人介绍社团基本发展情况，之后安排新生之间的互相认识。如果你能脱颖而出，给大家留下一个好的第一印象，对你来说非常重要。</li>
+</ol>
+<p>3.参加每次活动要积极主动：社团人员确定基本要经历以下过程：井喷期（招新结束-第一次活动，参加人数较多）——缩减期（2-4次活动左右，参加人数锐减）——平台期（4-5次活动之后人员敲定）。刚开始社团部长、副部长打电话通知你参加活动，你一定要抱着积极的态度主动融入，因为你目前的一切表现很大程度上决定了你能否留任社团领导。</p>
+<p>三、社团的奖励</p>
+<p>前提：你们学校有“评优秀社团个人”的奖励；</p>
+<p>条件：1.表现好，大家认可你；2.社团风气不错；3.你跟社团的学长学姐关系不错；</p>
+<p>结果：你可能会获得此奖项，这会是一个校级奖励。</p>
+<p>四、会费</p>
+<p>新生加入社团是不会被拒绝的，但是要向这个社团交会员费，简称“会费”。那时我们加入一个社团是15元，现在可能涨了，所以逛社团时口袋里请准备好会费。</p>
+<p>五、社团后话</p>
+<p>Q1：参加过一次活动后觉得没意思，不想参加了怎么办？</p>
+<p>A1：试着再给自己一次机会，找出没意思的原因是内在还是外在，然后有针对性的作出选择。</p>
+<p>Q2：担任社团领导很重要吗？</p>
+<p>A2：好处是可以锻炼自己各方面的能力，尤其是管理和组织能力；大学毕业简历上也会很光荣。当然，这些取决于你的判断。</p>
+<p>Q3：混社团的最高境界是什么？</p>
+<p>A3：自己能创办一个社团并成功运行下去。</p>
+<p>Q4：社团的事和学业有冲突怎么办？</p>
+<p>A4：永远记住：你首先是一个学生，即使前面有个“大”字，但本质无法改变，第一任务仍然是学习。只有在不影响学业的情况下玩转社团才会锻炼你的平衡、协调能力。</p>
+]]></content>
+      <categories>
+        <category>大学生活</category>
+      </categories>
+      <tags>
+        <tag>大学</tag>
+        <tag>社团</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于发邮件</title>
+    <url>/2493250061/</url>
+    <content><![CDATA[<p>发邮件俗称“发Email”，不要小看发邮件这件小事，你确定自己会正确给别人发送一封邮件吗？发邮件最重要的一点是要遵守必要的邮件礼仪：1.填写邮件主题。发送一封邮件，首先得主题明确，让对方一目了然，明确中心意思，节省时间；2.开头要写敬称，而非直接开门见山，这点在给师长写邮件时尤其值得注意；3.结尾要写“一些祝福语”或者“此致敬礼“四字，表示你的诚意与尊敬；4.落款一定要写清自己的姓名，学院和班级（除非你写的是匿名信），向老师表明身份，这样老师对你也有印象。你想一想，老师上课的学生和班级那么多，他不可能猜到你是谁，会回复一封不清不楚的邮件吗？要知道，在大学里让老师对一个同学有印象并不是一件容易的事，很可能有些同学四年下来就认识自己的辅导员（言外之意是别的老师虽然教过你但对你并无任何印象，你只是他课程名单上的一个名字而已）。</p>
+<p>作为成年人的基本道德之一就是不给别人添堵，多为对方考虑、着想。</p>
+]]></content>
+      <categories>
+        <category>大学生活</category>
+      </categories>
+      <tags>
+        <tag>大学</tag>
+        <tag>邮件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于外语</title>
+    <url>/1297965859/</url>
+    <content><![CDATA[<p>如果你所在高校不是某外国语大学，大部分人的外语语种为英语。大学里英语有等级考试，英语四、六级，满分均为710分，现在大学的毕业证和学位证大部分不和英语四、六级挂钩了，但是找工作、保研对英语有要求。获得推免资格的最低要求要通过大学英语四级，若想被推免到好学校，如“985”、“211”之类的，大学英语六级必须通过，这是最低要求。学习英语也要讲究方法，来到大学你自学的机会和时间比高中多了许多，应该试着去通过科学的英语学习方法来学习英语。普遍中国大学生的口语和听力较差，这不仅与平时练习的少有关，也与方法有关。高中的英语老师很少讲授大学英语学习理论，因此我们的英语学习理论部分很欠缺，这对真正学好英语也是一种障碍。这里推荐两个资源，一个是中国“恶魔的奶爸”，这个人本名叫刘晓光，写了一本书叫《把你的英语用起来》，推荐给你，此外他在豆瓣上有个小站，叫“奶爸的英语教室”，知乎上用户名为“恶魔的奶爸”；另一个资源是“ESLPOD”，即 “English as a Second Language Podcast”——英语播客：它被称为全球最棒的英语口语听力材料，它每个播客（也就是在网络发布的mp3）为持续10-20分钟的对话，包含三个部分：</p>
+<p>1.一个对话或故事，以比正常慢的语速来讲</p>
+<p>2.对第一部分表达和短语进行英文解释（用很简单易懂的语言）</p>
+<p>3.用正常速度来重新播一次对话或故事。</p>
+<p>ESLPOD有网络版和IOS版，听力部分均可免费下载但无原文，“，Learning Guide ”则需付费购买，它包括每一个新播客的8-10页的指南、完整的听力原文（包括ESL播客和英语咖啡馆）、定义、例句、问题理解、额外释义、文化笔记、播客通讯和新产品与服务的信息。如果你用的是苹果系列的移动产品，如iTunes、iPod、iPad等，则可在这些移动端免费订阅ESLPOD；如果是非苹果系列的移动产品，如Android系统手机，由于版权问题暂时无法订阅。</p>
+<p>要背单词的话，这里推荐两款APP， “拓词”和“百词斩”；充分利用碎片化时间记忆。但需注意一点：个人使用过后感觉这些背单词软件比较适合用来复习单词，而非背单词；即线下背纸质版单词，拿单词软件进行复习。</p>
+<p>大学里学习一个小语种是个不错的选择，理由：1.大学里相对工作之后时间较充足且集中，时间由你安排调度；2.大学中有开设小语种课程，学费比社会上培训机构便宜很多；3.小语种学的好对考研也有帮助；4.会小语种毕业后找工作有优势，尤其日语和韩语，现在日韩企业在华的也不少。这里推荐一个网站：沪江网；有兴趣学习日语的同学，专门推荐笈川幸司老师的个人独立博客：日本語学習サロン　JASLON。</p>
+]]></content>
+      <categories>
+        <category>大学生活</category>
+      </categories>
+      <tags>
+        <tag>大学</tag>
+        <tag>外语</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>大学奖助学金</title>
+    <url>/3782798654/</url>
+    <content><![CDATA[<p>奖学金分为国家奖学金、国家励志奖学金和学校的特等、一等、二等、三等奖学金及其他个人、机构冠名的奖学金。学生无论家庭经济是否困难，只要符合规定条件，均可获得国家奖学金。同一学年内，获得国家奖学金的家庭经济困难学生可以同时申请并获得国家助学金，但不能同时获得国家励志奖学金。试行免费教育的教育部直属师范院校师范类专业学生符合规定条件的，可以获得国家奖学金。奖励标准为每人8000元，于每年11月30日前一次性发放。具体可参见教育部网站的国家奖学金简介。教育部每年都会公布获得国家奖学金的名单，每人一个编号，在教育部网站上可查询到。国家励志奖学金则用于资助品学兼优的家庭经济困难学生，有条件限制，同一学年内，申请国家励志奖学金的学生可以同时申请并获得国家助学金，但不能同时获得国家奖学金。试行免费教育的教育部直属师范院校师范类专业学生不再同时获得国家励志奖学金，于每年11月30日前一次性发放，金额为每人5000元。</p>
+<p>助学金是为家庭条件有困难的学生提供的。国家为家庭条件有困难的同学提供了国家贷款和校内贷款两个渠道以使其顺利完成学业。在同一学年内，申请并获得国家助学金的学生，可同时申请并获得国家奖学金或国家励志奖学金。试行免费教育的教育部直属师范院校师范类专业学生，不再同时获得国家助学金。国家助学金申请需要你家乡所在的民政局开具的贫困证明，假使你来自农村的，则步骤为：你居住地农村开具的贫困证明——农村上级单位乡（镇）贫困证明——民政局开具证明；假使你居住地为城市，则你所在社区居委会开具贫困证明——所属民政局开具证明。有的学校助学金等级分为普通贫困、一般贫困和特别贫困，金额分别为1000、2000、3000元；有的学校助学金等级分为一般贫困和特别贫困，金额为特困生3500元、一般贫困生2500元。助学金不一次性发放，有的学校按月发放，有的学校则按学期发放。一般来说，助学金申请除了递交申请表和贫困证明外，还需进行班级民主评议程序，该程序原则上不由本人参加，由参加该程序的同学对申请同学自身情况进行客观评价，最后打分以确定贫困等级。</p>
+<p>需要注意的是，目前有些高校里的一些辅导员将学生获得奖助学金作为其的另一得钱渠道，做法如下：获得奖助学金的同学会分一半或者其他比例给辅导员。有些同学则很会做人，所谓“吃水不忘挖井人”，得奖或者补助下来之后会主动给老师“送礼”以表忠心和感激。</p>
+]]></content>
+      <categories>
+        <category>大学生活</category>
+      </categories>
+      <tags>
+        <tag>大学</tag>
+        <tag>奖助学金</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>大学科研竞赛</title>
+    <url>/3279360046/</url>
+    <content><![CDATA[<p>2014年之后中国大学都有的科研项目、竞赛：大学生创新创业训练计划项目、“挑战杯”竞赛和全国大学生英语竞赛，这三类不分文理工科专业，且后两者的权威性很强，所有的大学生都有资格参加。接下来简明扼要说一下重点：</p>
+<p>（一）大学生创新创业训练计划项目</p>
+<p>此项计划是教育部做好本科教学工程实施工作的重要举措之一。</p>
+<p>1.类别上：包括创新训练项目、创业训练项目和创业实践项目三类</p>
+<p>创新训练项目：是本科生个人或团队，在导师指导下，自主完成创新性研究项目设计、研究条件准备和项目实施、研究报告撰写、成果（学术）交流等工作。</p>
+<p>创业训练项目：是本科生团队，在导师指导下，团队中每个学生在项目实施过程中扮演一个或多个具体的角色，通过编制商业计划书、开展可行性研究、模拟企业运行、参加企业实践、撰写创业报告等工作。</p>
+<p>创业实践项目：是学生团队，在学校导师和企业导师共同指导下，采用前期创新训练项目（或创新性实验）的成果，提出一项具有市场前景的创新性产品或者服务，以此为基础开展创业实践活动。即除“创新训练项目”可由个人申请之外，其余两类须以团队形式进行；</p>
+<p>2.等级上：一般分为校级、省级和国家级三类</p>
+<p>如果你所在高校是地方所属高校，你申请项目想达到国家级层面需要经过省级筛选方可；如果你所在高校是中央部委所属高校，你所在学校认可你的申报项目，可直接推荐参加国家级；这是相关文件规定的原话： 国家级大学生创新创业训练计划面向中央部委所属高校和地方所属高校。中央部委所属高校直接参加，地方所属高校由地方教育行政部门推荐参加。</p>
+<p>3.奖励上：因所在高校制度不同而不同，一般来说有折抵学分、免修部分课程、发放金钱奖励、保研加分、评优加分等奖励措施。</p>
+<p>4.收获：通过参加此类计划项目，你会对科研有高于一般同学的认知：从基本认识到深刻；你能体会到一个团队的重要性，如何带领一个团队进行项目攻关；如何与老师相处；如何进行项目申请、实施、结项等等。做项目有形、无形的收获绝对值得你付出，这里只是起一个引导作用。对于科研对本科生成长、成才、人生中的重要性，可进一步阅读中央民族大学出版的张瑛老师的著作：《本科生科研能力培养和提高方法研究》；管华、何晓琴、梁鹤发表在《西安航空学院学报》上2014年第3期的论文《我国本科生科研情况综述》。</p>
+<p>关于大学生创新创业训练计划项目的权威政策文件通知，请看：教育部关于做好“本科教学工程”国家级大学生创新创业训练计划实施工作的通知，同时结合自己所在高校的相关规定。</p>
+<p>最需要注意的一点：只有国家级创新创业训练计划才有财政拨款，其他级别的只有学校层面拨款，所以你应该清楚一点：学校项目申报书上写的校拨10000元，很可能只给你拨款5000.不要觉得不可能，如果你不是重点学校，这种事情极有可能发生，就是这么现实。</p>
+<p>（二）“挑战杯”竞赛</p>
+<p>“挑战杯”竞赛在中国共有两个并列项目，一个是“挑战杯”中国大学生创业计划竞赛；另一个则是“挑战杯”全国大学生课外学术科技作品竞赛；前者被称为“小挑”，后者被称为“大挑”。这两个项目的全国竞赛交叉轮流开展，每个项目每两年举办一届，“挑战杯”系列竞赛被誉为中国大学生学生科技创新创业的“奥林匹克”盛会。“挑战杯”竞赛一般是由该届所承办高校联合其他单位共同建设本届的“挑战杯”官网，即由主办单位和承办单位共同建设。第十三届的“大挑”是由苏州大学承办的，见竞赛官网；2015年的“大挑”第十四届“挑战杯”全国大学生课外学术科技作品竞赛将由广东工业大学和香港科技大学联合承办。</p>
+<p>“大挑”与“小挑”的区别：大挑注重学术科技发明创作带来的实际意义与特点，而小挑更注重市场与技术服务的完美结合，商业性更强，小挑奖项设置为金奖、银奖、铜奖，而大挑设置特等奖、一等奖、二等奖、三等奖，大挑有学历限制而小挑没有，大挑分为专本科组、硕士组、博士组分开评审，大挑国赛最多可以报八人，而小挑最多可以报十人，大挑比赛证书盖共青团中央、中国科协 、教育部 、全国学联、举办地人民政府的章，而小挑证书只盖共青团中央、中国科协 、教育部 、全国学联的章。</p>
+<p>“挑战杯”现已形成国家、省、高校三级赛制，发起高校可直接报送作品参加国赛，非发起高校则需经过省级比赛方有机会报送本校作品角逐赛。</p>
+<p>（三）全国大学生英语竞赛</p>
+<p>全国大学生英语竞赛（National English Contest for College Students，简称NECCS）是全国唯一一个考察大学生英语综合能力的竞赛活动。</p>
+<p>1.类别及参加对象</p>
+<p>该竞赛分A、B、C、D四个类别，全国各高校研究生及本、专科所有年级学生均可自愿报名参赛。A类考试适用于研究生参加；B类考试适用于英语专业本、专科学生参加；C类考试适用于非英语专业本科生参加；D类考试适用于体育类和艺术类本科生和非英语专业高职高专类学生参加。</p>
+<p>2.初赛</p>
+<p>初赛时间及形式：初赛定于每年的4月中旬（4月第二个星期日）上午9：00一11：00在全国各地同时举行。初赛赛题包括笔答和听力两部分。初赛听力采取播放录音的形式。</p>
+<p>3.决赛</p>
+<p>决赛时间及形式：决赛笔试（含听力）定于每年5月中旬（5月第二个星期日）上午9：00一11：00在全国各地同时举行。决赛分两种方式，各地可任选一种：第一种是只参加笔试（含听力），第二种是参加笔试（含听力）和口试。只参加笔试（含听力）的学生的决赛成绩满分为150分；既参加笔试（含听力）又参加口试的学生满分是200分，其中笔试分数为150分（含听力），口试分数为50分。决赛赛题和口试方案、题目由全国竞赛组委会统一命制。各省级竞赛组委会选择是否统一参加口试，并决定口试地点、时间、形式等具体事宜。</p>
+<p>NECCS在人人网上有公共主页，名称就叫NECCS。</p>
+<p>具体信息可参考下图和一篇帖子“全国大学生英语竞赛常见问题解答”，在NECCS人人公共主页上，现附该主页上关于2014年NECCS的“竞赛通知”和“命题说明”图片：</p>
+<p>除了这三类之外，针对各个学科专业的也有很多大型、权威的竞赛，尤其是理工科学生，参加竞赛的机会很多。这里举出一些比较有代表性的，理工科类的“中国大学生数学竞赛”、“全国大学生数学建模竞赛”、“全国大学生电子设计竞赛”、“中国机器人大赛”、“ACM国际大学生程序设计竞赛”、“全国周培源大学生力学竞赛”、“全国大学生结构设计竞赛”；文科类竞赛相对要少，有“全国大学生广告艺术大赛”、“社科奖-全国高校市场营销大赛”、“全国电子商务运营技能竞赛” 、“全国ERP（企业资源规划）电子沙盘大赛”等；法学类专业学生可参见的比赛有：国际商事仲裁模拟仲裁庭辩论赛和“理律杯”全国高校模拟法庭竞赛等。</p>
+<p>除此之外，还有各大企业冠名或赞助的多种多样的竞赛，如联想大学生创意营销大赛、现代汽车大学生广告创意大赛、华为第二届全球手机主题设计大赛等等，设计类尤其多，可参见站酷ZCOOL网。</p>
+<p>大学里锻炼自己的机会很多，几乎每个领域都会有大大小小的比赛，但需要注意的是：你所在学校一定不会都贴出比赛公告，这一方面与你所在学校学科侧重点有关，另一方面也与大赛主办方的宣传有关。你需要做的是：如果感兴趣就自己去主动寻找相关资讯。大学之中有参加科研项目、竞赛的经历会让自己成长更快，收获自然比别人更多，最重要的是毕业之时都是美好的回忆，因为至少你的青春奋斗过。</p>
+<p>推荐一个网址：科学网。这里聚集的大多是理工科的大学教授、副教授、博士，有前沿的学科信息和教职状态，有志读研的同学可定期不定期浏览。需要注意的一点是：科学网的准入机制审查严格，如果仅是本科生，是无法成为正式注册会员的，仅有登录浏览的一些权限。</p>
+]]></content>
+      <categories>
+        <category>大学生活</category>
+      </categories>
+      <tags>
+        <tag>大学</tag>
+        <tag>科研竞赛</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>大学综合素质测评与评优</title>
+    <url>/425435002/</url>
+    <content><![CDATA[<p>综合素质测评是评优的主要依据，“测评内容包括包括德育测评、智育测评、体育测评和能力测评四个方面，每个类别根据情况给予一定的比例，在将学生在校的各种活动、学习或者各种竞赛给出一定的分数，根据所占的比例算出总分，然后根据总分决定学生优秀与否，并根据综合素质测评来评定奖学金”</p>
+<p>两学年测评一次，大学里总共测评3次，大一两学年、大二两学年和大三两学年，大四不测评。</p>
+<p>评优分为五四评优和三好学生、优秀班干及单项个人评优等类别，这些依学校而定。五四评优评选“优秀团员”、“优秀团干”、“优秀团委”及“团员标兵”和“团干标兵”；其他评优中有“三好标兵”、“优秀班干标兵”；还有团体奖“优秀班级”。大四不评这些优，评选的是优秀毕业生优秀毕业设计/论文。</p>
+<p>有心的同学请仔细阅读《学生指导手册》，书中对评优条件介绍得很清楚。</p>
+]]></content>
+      <categories>
+        <category>大学生活</category>
+      </categories>
+      <tags>
+        <tag>大学</tag>
+        <tag>综合素质测评与评优</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>大学读书</title>
+    <url>/2719713595/</url>
+    <content><![CDATA[<p>（一）买书篇</p>
+<p>说读书之前，先得有书。买书也许在很多人看来是一件习以为常的事情，但是，你真的会买书吗？下面给你们推荐一个方法。</p>
+<p>1.先确定自己要买哪一方面的书，如知识管理、时间管理、金钱管理或者其他专业方向的。</p>
+<p>2.确定之后到亚马逊或者当当上搜相关类别中的排名情况；</p>
+<p>3.之后进一步确定目标，如果有试读部分，先仔细阅读。</p>
+<p>4.如果网上有电子版最好了，可以注册下载阅读；如果想阅读纸质版，去图书馆查阅是否有此书，如果有，先借来阅读，再决定是否要购买。</p>
+<p>5.书评有时候不是决定购买的唯一因素。要知道，现在有很多的软文营销。决定要买的图书之后，到豆瓣图书上进行搜索，那里可以比价，哪家卖的价格最低。</p>
+<p>6.亚马逊图书送货速度快，一般第一天下单第二天就到；当当上相对比较慢，但它一直在进步。如果对速度没有要求，那两家都可以选择。</p>
+<p>“不加选择的知识冲动，正如不分对象的性冲动，都是下流的标志”；尼采的这句话很适合来形容买书。有时买书只是为了发泄，不要因一时的冲动而去消费金钱，不然你会后悔。</p>
+<p>（二）推荐篇</p>
+<p>这里推荐两本书：《大学生.中国校园版》和《大学生.能力博士版》，推荐理由：这两本书会介绍你的同龄人都在干啥，别人的大学生活是怎样的，不同校园里的情况，而比较则会引起你的反思，不过有些小贵：8元一本。来到大学，老师一定会给你推荐阅读书目，你的同学也一定会疯转“香港大学推荐阅读书目”、“清华北大学生推荐阅读书目”等诸如此类的帖子，我想告诉你的是：这些书单如果你能读完其中一个所列的书目，你已经完胜了绝大多数人。记住：行动永远是最难的。</p>
+<p>（三）种类</p>
+<p>大学里应尽量做到博览群书，拓宽自己的知识面，切忌单一。有关时间管理、团队管理、思维方法训练和沟通技巧的书一定要读；尤其是关于思维方法训练的书，读后一定要有意识的勤加实践，方能有成效。这里推荐几本有关思维方法的书：《学会提问》、《批判性思维入门》、《思考的艺术》和《逻辑思维简易入门》。</p>
+<p>记住一点：读书要读经典。</p>
+]]></content>
+      <categories>
+        <category>大学生活</category>
+      </categories>
+      <tags>
+        <tag>大学</tag>
+        <tag>读书</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>大学课程</title>
+    <url>/2173024309/</url>
+    <content><![CDATA[<p>（一）基本情况</p>
+<p>大学学习实行学分制度，修满学分方可毕业，言外之意：如果你提前修满学分（所修学分达到学校的要求，最低要达到各个方向要求修满的学分，多则无上限）理论上可申请提前毕业，至于批准与否则取决于学校。大学课程分为选修课与必修课，每门课程都对应着相应学分，学分越高，代表该门课程越重要。学分一般与绩点挂钩，学分绩点反映整个大学期间学习成绩水平，通过公式来进行计算，一般学生手册上会有公式，各个学校的算法不同。绩点在大部分高等学校的研究生保送考核或者申请出国留学时，是一个必要条件。需要注意的一点是：不同课程的不同学分某种意义上代表了学习时你需要投入的精力与注意度。例如：中国近现代史这门课程为2分，毛泽东思想与中国特色社会主义概论这门课程为6分，同样是挂科，一个同学挂的是前者，一个同学挂了后者。大学里如果你的挂科学分数达到一定程度是要留级的。所以如果两个同学的挂科课程数相同，例如均为4门，但由于所挂课程的学分多少不同，可能一个就要留级而另一个不需要。</p>
+<p>（二）成绩构成</p>
+<p>大学一门课程的总成绩由平时成绩与期末成绩构成，选修课的平时成绩一般不低于50%，必修课的平时成绩一般不高于30%。选修课试卷由任课老师自己出题，必修课则由学院指定的命题人命题。</p>
+<p>（三）逃课</p>
+<p>大学里是可以逃课的，老师的态度基本是不提倡、不反对。但有的老师会用点名、签到的方式来检测该学生有否到课。“逃课”有三种含义：一种是纯粹不想上课；另一种是想上课但由于有其他事情（如社团、学生会等）而不能上课；还有一种则是想学习但又觉得这个老师的讲课方式不适合自己，同时段去蹭其他班的课。所以“逃课”不一定都不好，“逃课”某种意义上也可叫“蹭课”。</p>
+<p>（四）选修课</p>
+<p>选修课分为通识选修课与专业选修课，选修得当某种意义上会让你的总成绩完美些。选修课本质上是为了“适应学生的个别差异，因材施教，发挥其专长”而设置的，但现在已出现了异化。大家选修课程目的大体归于两类：一是个体为了满足自身兴趣、发展兴趣；一是为了拿高分、拿奖学金、保研出国；且后者所占比例不少。所以在选修课程之前，大家普遍会做的一件事情是向学长学姐打听“哪门选修课容易通过”和“哪门选修课给分高”诸如此类的问题，当然学长学姐也会很好心地告诉你如何选择；一般衡量标准有两个：（1）不定名或者很少点名；（2）期末给分高。有些选修课老师会以点名方式给平时成绩，也有的通过完成平时作业来确定平时成绩，文科类一般是写课程小论文。选修课选修方式为网络选课，登录所属高校的教务系统进行选课，选课时。</p>
+<p>如果选迟了或者运气不好（随机抽选）会有被剔除的可能，即选课失败；或者你所选课程选修人数过少，也可能无法开课而导致选课失败；此时需重选。</p>
+<p>选修课与必修课不同，大都采用开卷方式进行期末考。选修课最初设计的意义是：根据选课者的兴趣爱好开设；但当下很大程度上沦落为为了获高分而选。所以有人说：选修课的存在就是为了让你的平均分好看一些。</p>
+<p>（五）必修课</p>
+<p>必修课分为通识必修课与专业必修课。上课方式一般为2个班以上集中授课（除小班教学外），无固定教室。必修课很重要，讲授的是专业知识；如果认为老师不适合自己，完全可以去蹭课。这里推荐一款学习类APP“课程格子”，它建成了全国最大的大学课程信息数据库，完整收录了中国（含港澳台）超过3000所大专院校课程信息，拥有近1000万课程数据。你只需下载到自己手机上，输入基本信息：学校、学院/系、入学年份、学号和教务密码，它会自动导入你这学期的课程，可设置上课提醒、考试提醒、上课周数提醒；还有一个很便利的功能则是：它已经连通了QQ好友、人人网好友和新浪微博好友，可在加好友之后，观看这些好友的所学课程，很方便蹭课。同时“课程格子”也很方便交友，它有BBS、小纸条之类的贴心功能。自己试一试吧！个人感觉是一款很实用的学习App。以下为该软件部分截图：</p>
+<p>（六）成绩</p>
+<p>对于大学的课程分数，在考完试后，建议最好给老师发个短信或打个电话，具体咨询一下自己考试的结果。</p>
+<p>（七）浏览相关专业网站</p>
+<p>每门学科都有自己的专业网站，网站上有本学科前沿方向的反映与发展路径，可作为课本之外知识的拓展方法。</p>
+<p>对大学课程如果想了解更多，千万不要忽略了开学之初学校发给你的两本书。</p>
+]]></content>
+      <categories>
+        <category>大学生活</category>
+      </categories>
+      <tags>
+        <tag>大学</tag>
+        <tag>课程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>考验考证求职</title>
+    <url>/156052360/</url>
+    <content><![CDATA[<p>这部分介绍有关考研与保研、考证和求职，不是本人专长，均为简略介绍，仅推荐相关资源。</p>
+<p>（一）考研与保研</p>
+<p>第一，推荐大家购买《求学.考研》这本书，它一般是每月一本/5元，遇到寒暑假则两个月合为一本；大一就可以着手买来看，定位清晰后早做准备。</p>
+<p>第二，有关保研的，专门推荐《保研全攻略》，2014年才出版的。</p>
+<p>有针对性的阅读，可以少走许多弯路而效率又高。</p>
+<p>（二）考证</p>
+<p>大学里建议要考的证：普通话证、计算机二级证或者办公自动化证和驾驶资格证；其他证件则依据自身的定位取舍。含金量很高的证，推荐阅读“最值钱五大证书”，该文虽然是2003年的，但依然可作为考证参考。微博等资讯上一般都会发布“XX年考证月历”，可作为又一参考。</p>
+<p>（三）求职期</p>
+<p>求职期为大四一年，但实际上大三下学期就开始了。有这么一句话“金三银四，金九银十”：相比大四，大三为黄金求职期；九月份与十月份相比是黄金求职月份。</p>
+<p>工作大的类别有：国企、私企、自主创业和公务员，其中公务员考试类别很多，推荐关注华图教育进行具体了解。</p>
+]]></content>
+      <categories>
+        <category>大学生活</category>
+      </categories>
+      <tags>
+        <tag>大学</tag>
+        <tag>考证求职</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于办公技能</title>
+    <url>/2204305188/</url>
+    <content><![CDATA[<p>现代办公基本上是无纸化操作（打印除外），不论你今后职业发展如何，基本的办公操作是必须掌握的。Word、PPT和Excel是最基本的操作，后者难度最大。假期里你能学会的一个东西是：五笔打字。学习Word建议最好买本书来系统学习一下，零碎知识点多；学习PPT可关注新浪微博@秋叶，他是PPT达人，同时也是一名高校老师；学习Excel则可关注新浪微博@Excel技巧网_官方微博，干货多；五笔打字买本五笔打字书练习即可。办公技能的唯一捷径是：大量练习。高校也会开设诸如“办公自动化课程”之类的通识选修课，但是光凭老师讲自己不去练习是不可能熟练的，因为办公的基本要求是：办公效率。掌握一个技能是你增强自信心的最好捷径，要知道“机会总是垂青有准备的人”。</p>
+]]></content>
+      <categories>
+        <category>大学生活</category>
+      </categories>
+      <tags>
+        <tag>大学</tag>
+        <tag>办公</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于管理技能</title>
+    <url>/2978336064/</url>
+    <content><![CDATA[<p>（一）理财</p>
+<p>大学里的生活完全由你支配，如何安排好生活，金钱的安排是根本。应该要形成一个正确的“金钱观”，合理安排花销，规划生活。从“职业理财师”这个职业的火爆程度你应该能读出一个潜在信息：金钱如果不做规划，是最大的愚蠢；要不然也不会有这个职位了。起码你要有一个理财的观念，所谓”你不理财，财不理你”是很有道理的，基金、股票、信用卡等这些你应该试着去了解；最需要学习的则是：如何进行投资。这考验一个人的投资眼光，有兴趣的可以去了解当下一种新兴的筹资方式：众筹。</p>
+<p>（二）时间管理</p>
+<p>人和人最大的区别在于时间的运用，人和人之间绝对的公平则在于：一天拥有的时间完全相同，都是24小时。大学里的时间是由你支配的，不是每个人都能做好时间管理这件事，相反绝大部分人在时间管理上表现不佳。优化时间管理，可以让事情事半功倍；大学里不再是高中的三点一线了，它是多维度的生活，如果你来到大学之后仍然只是学习，只能说你在重复高中的生活；上大学的意义会因此萎缩很多。大学毕业后，会有很多问题随之而来，人生中家庭和事业就需要你花大量的时间来平衡安排。想一想为什么你的同龄人中有些人德智体美劳可以全面发展，这里不仅仅是天赋和努力的问题，更重要的还有一点：这些人的时间安排很合理，时间被他优化了。</p>
+<p>四、关于社会调查</p>
+<p>学会“社会调查” 会让你终身受益，对学业和工作有非常大地提升。“社会调查”能告诉你最基本的一个道理：实践出真知。真正体会到理论与实践的辩证关系。大学里会有大量的实践机会，而实践过后最好的回馈则是实践报告的撰写。应该掌握撰写实践报告包括社会调查报告的基本技能。人所有应该具备的能力中最根本的是你的表述能力，如若不会表述，其他能力的施展也会大打折扣。关于“社会调查”这个主题后期会有专门文章来表述，这里只做个观念引导。下面是专题文章中的一篇“到外校做调查时应注意的五个方面（社会实践篇）”：</p>
+<p>大学生活中少不了的是社会实践，不论是专业课老师布置的任务，还是学校的暑期社会实践。做社会调查的基本形式有两种：问卷调查和访谈。在此先介绍一下问卷调查方面的实操部分。</p>
+<p>一、问卷设计方面</p>
+<p>（一）内容方面</p>
+<p>1.选项要齐全；</p>
+<p>2.选项设置不能太多；</p>
+<p>（二）形式方面</p>
+<p>1.问卷上应插入页码，格式为“共几页，第几页”（必要时写上“后面还有”等字样，提示被访者填写后面的问题）；</p>
+<p>2.问卷上方最好填写“共几份，第几份”（便于之后的数据录入并检查）；</p>
+<p>二、外出调查方面</p>
+<p>（一）准备工具</p>
+<p>1.装问卷的袋子最好不要有声音，尤其到自习室等安静地点调查时；</p>
+<p>2.女生最好不穿发出声音的跟鞋，因为一方面调查时间长容易累；另一方面，到图书馆、自习室等安静地点发放问卷时很容易打扰到别人；</p>
+<p>3.多带几支笔，最少是3支书写流畅的笔；</p>
+<p>4.证件一定要带齐全：身份证+学生证+一卡通</p>
+<p>（二）调查人员</p>
+<p>个人认为必须2人以上，一起去调查地点，分开调查，这样做不仅高效，而且遇到事情好商量；</p>
+<p>（三）调查地点</p>
+<p>1.学校里的图书馆为首选，尤其是走廊里；</p>
+<p>2.自习教室等教学楼；</p>
+<p>3.操场和草坪里；</p>
+<p>4.路上</p>
+<p>（四）调查时间</p>
+<p>1.图书馆的最优时间为吃饭时间之后半小时内；吃饭时间到自习室里去找人很好填；理由：此时图书馆、自习室的人不密集，好发问卷，受打扰的人数也相对较少，不易引起大家的反感；</p>
+<p>2.晚上上选修课之前的半小时左右，19:00—19:30.同学陆陆续续到齐，问卷也发得从容不迫。</p>
+<p>（五）其他情况</p>
+<p>如果离原定计划还有一定差距，此时要想尽一切办法，尝试各种可能。例如，今天去XX大学调查时，下午5点了问卷才发了一半，还有58张未发出去，也不认识建大的一个同学，此时只好硬着头皮去找图书馆管理员碰碰运气了，结果人家让进了。先在走廊里发了有大概10份，在两个自习室里有20份，最后找到了阅览室，本以为就是看到的3个人，跟阿姨交待了情况之后，拿出有效证件，同意了调查，结果发出去15份，这是今天一个地点发出的最大份数。很不错。最后，带着的110份问卷发出去101张，剩了9张，完成率达91.8%。还要感谢郝颖超同学，帮我发了大概有20份。</p>
+<p>三、调研流程</p>
+<p>1.先做个小范围的预调研，发现问卷形式上的错误，如选项排列A、B、C、“E”、这种低级错误；发现选项的不周延性；</p>
+<p>2.进一步从内容到形式入手完善问卷；</p>
+<p>3.斟酌每个问题的提出目的；</p>
+]]></content>
+      <categories>
+        <category>大学生活</category>
+      </categories>
+      <tags>
+        <tag>大学</tag>
+        <tag>管理</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于网络素养</title>
+    <url>/1263451054/</url>
+    <content><![CDATA[<p>如今社会是互联网一统江湖的时代，现代人的生活几乎离不开互联网，以后社会发展趋势则是朝着智能化方向发展，这点从你们现在入学所用的手机上就可以看出，几乎人人一部智能机。同时网络也是一把双刃剑，我们需要做的是：让网络为我所用，而不是消遣时光。</p>
+<p>我认为在大学里我们需要掌握两点：</p>
+<p>（一）搜索技能</p>
+<p>有人说，21世纪我们需要具备三大人类智力因素：智商、情商和搜商。“搜商”是指具备通过搜索技能解决问题的能力，强调效率性。我们正处于一个信息爆炸年代，网络上充斥着大量信息，如何在海量信息之中快速找出自己所需要的信息呢？关键之处在于你熟练掌握了搜索技能。说实话，每个人都会搜索，“百度一下”就可以了，但这只是最简单、基本的，如何准确而快速的进行高效搜索才是值得你去学习的。这里推荐一个课程，由中国科学技术大学罗昭锋老师主讲的《文献管理与信息分析》，这堂课程的主旨是“助力科研，推动创新”，现已在网易云课堂的中国大学MOOC版块上开课，目前正在进行中，你可以免费注册修课。完整的在线修完这堂课之后，你绝对会有不小的收获！当然如果你还不太适应在线教育这种方式，也可等开学之后修课。每所高校均会将“文献检索课程”作为选修或者必修来开设。但不论选修或必修，你都应该重视它。</p>
+<p>有问题大家普遍的做法是：百度一下——百度知道或者360问答；这里再推荐一个更专业的网站：知乎，它更注重深度与专业性。</p>
+<p>（二）软件素养</p>
+<p>每天生活中都会出现新问题，如何解决好是你应该去思考的。一个人的力量有限，但网络却是集体的力量，应该学着借助群体智慧去解决问题。要学会运用软件高效学习和办公。应该具备一种“计算机思维”，软件的本质就是程序员将每件事情需要做的步骤编好程序后面向普罗大众发布。所以当你生活中有棘手之事时，看看是否可以利用“计算机思维”去解决，查找网络上是否有能满足你要求的软件。举一个很实际的例子：做问卷调查。假使你想做一项问卷调查，问卷收回之后要进行数据分析，如何操作？最原始的办法：1.人工统一各个选项比例；2.基本的百分百分析；但你若知道SPSS这个专业的统计软件，你绝对不会这么做。具体原因，你可以去了解一下SPSS这个软件，尤其是文科专业的同学更需要掌握这个软件。</p>
+<p>（三）大数据意识</p>
+<p>人类已经进入了大数据时代，虽然现在相关人士对“大数据”这个概念褒贬不一，但你身处这个时代，作为当代大学生应该有所了解，推荐看《大数据时代》这本书，以下为它的书评之一：</p>
+<p>“大数据”的背后</p>
+<p>该有评《大数据时代》</p>
+<p>《大数据时代——生活、工作与思维的大变革》一书由[英]维克托•迈尔—舍恩伯格、肯尼思•库克耶著，中国的盛杨燕和周涛译，浙江人民出版社于2013年1月出版，截止2014年6月2日，该书在亚马逊上累计获得评论1440次，综合得分4.4星，豆瓣网上5683人评价，得分7.6.总体来看，本书反响很不错，作为译著4个月内历经5次印刷（笔者买到此书时印次为2013年4月第5次印刷），能受到国人如此多的关注，说明评论此书某种层面上还是有意义的，毕竟在出版泛滥的当下，有些书根本不值得为其专门写作书评，充其量也仅为短评。</p>
+<p>本书的副标题为“生活、工作与思维的大变革”，根据物质决定意识，意识反作用于物质的一般哲学原理，可以清晰的知道一切变革均建立在已有的物质基础之上，生活、工作与思维发生大变革皆取决于我们正身处大数据之时代，本书正是在此背景之下展开论述的。全书分三部分分而论之：思维变革、商业变革以及管理变革。其中思维变革是其他两部分变革之基调所在，作者强调：由于我们正处于大数据的包围之中，为此对待数据应遵循三个基本原则：1.不是随机样本，而是全体数据；2.不是精确性，而是混杂性；3.不是因果关系，而是相关关系。在商业变革及管理变革部分则以例证的方式进行论证，书中包含有丰富的能够证明作者观点的事例，如第133页提到的“IBM，电动汽车动力与电力供应系统优化预测”、第141页的“谷歌街景与GPS采集”、第144页-第145页的“微软与谷歌的拼写检查”、第151页的“FlyOnTime 的航班时间预测”等等，以上所举实例均在证明此观点：大数据在商业中的应用价值潜力非常之大。然而物极必反，凡事过了平衡点，必会有负面影响的出现，紧接着作者提出了“大数据时代的管理变革”之命题，认为“让数据主宰一切的隐忧”则是不可忽视的个体隐私侵害代价；进而随之而来的问题则是相关领域的管理变革。以书中所举的个体隐私保护为例，先前的隐私保护模式为“让人们自主决定是否、如何以及经由谁来处理他们的信息，把这种控制权放在了人们手中”（书中第220页），即“告知与许可”模式；然而在大数据时代，因数据的价值很大一部分体现在二次利用之上，“告知与许可”模式所能起到的隐私保护作用微乎其微，因此需要设立一个不同于先前的隐私保护模式。最后作者以对大数据时代的美好憧憬结束全文，认为尽管是大数据时代，人类的作用依然无法被取代，未来一切的美好等着人类去探索。</p>
+<p>毋庸置疑，人类早已进入了信息社会，大数据时代的到来是信息社会发展的必然结果。本书被媒体宣称为“迄今为止最好的一部大数据专著”，媒体如此宣称之原因更多层面的出发点可能应是：作者维克托•迈尔—舍恩伯格是最早洞察大数据时代之人，而非本书对于大数据的认识到位，兹认为源于本文前述的作者认为对待数据应遵循的三个基本原则，理由如下：1.针对“不是随机样本，而是全体数据”而言：在无论身处何种时代，人类永远处于永恒发展的动态运动之中的前提之下，作者所认为的以“全体数据进行预测而非随机样本”并不具有实际可操作性。第一，技术的发展永远赶不上人类每分每秒、随时随地产生的海量数据，更何况技术的发展本质上具有周期性；第二，“全体数据”的概念仅在相对情况下适合使用，此时静止期的数据样本在先进算法系统之下才明显优于先前人类所采用的随机样本；第三，即使是静止期的全体数据，其自身也具有局限性，只能代表过去，事实上根本不存在实际的“全体数据”。2.针对“不是精确性，而是混杂性”而言：自古至今，事物的发展变化本质上就是复杂多样的。按作者的逻辑，人类在大数据时代出现之前所收集的数据均是精确性的，然我们知道，在统计学中是允许一定误差出现的，即使在获取了全部样本之后，因各种原因也可能导致误差、不精确性的出现，因为世上本无完美之物。作者在此强调“不是精确性，而是混杂性”有些强说新辞之嫌。3.针对“不是因果关系，而是相关关系”而言：这是笔者最不认同之处：事物之间因果关系的探寻一直被认为是解决所有事情的根本出发点，作者得出此结论的逻辑是：由于海量数据的存在，使得事物之间显现更多的是相关关系，以致因果关系不易被人类所探寻，我们可以改变之前的固有观念，更多着眼于事物的相关性之上，放弃费力而不一定有结果的因果关系之探寻。事物的复杂性导致现实中表现出更多的现象，人类要做的应是去粗取精、由表及里，从现象中发现事物本质之所在，探寻规律，将规律应用于日常生活之中，而非放弃事物的本质探索。再者，在统计学和经济学领域，相关性分析本身就是存在着的，而且是作为重要的学科方法而存在；人类早在大数据时代到来之前，已认识到了事物间的相关关系的存在。大数据时代来临，只不过是将相关关系更凸显而已，而非作者的绝对否定。</p>
+<p>作为一本开大数据先河之作，本书更多的仅是说明了大数据是什么（What）介绍了相关应用事例，并未详细涉及如何获得大数据（Get）、获取之后如何进行分析大数据（Analyse）及如何具体的操作应用（Apply）。理想意义之上的大数据著作应包括该四个方面：W-G-A-A.但从价值理念传播意义层面讲，本书的价值是非常值得肯定的，那就是大数据时代已经来临，每个个体均是大数据的生产者、利用者及被利用者，大数据的价值潜力随着科技进步必将大放异彩，产生更加精准的预测；但随之而来的风险也不能忽视，信息领域的公开问题、隐私的保护模式等等，相关领域应做好准备迎接挑战。以近期我国开展的“扫黄打非”运动为例，被广大网友熟知的视频播放器软件公司快播因涉嫌传播淫秽色情信息而面临2.6亿元的巨额罚款，注册该网站的用户观影记录均被存储在云端服务器之上，若将大数据算法等相关技术运用于此，恐怕用户观看的色情网站名称、观看影片、观看次数等个人敏感信息均可定位搜索出。谁有权使用该相关数据？该相关数据是否属于用户隐私？即使对用户行为所产生的数据不进行预测，但被利用、调用的风险可能性依然存在。</p>
+<p>“大数据”背后更多的是如何应用大数据以及应用后随之产生的一系列问题的解决。</p>
+]]></content>
+      <categories>
+        <category>大学生活</category>
+      </categories>
+      <tags>
+        <tag>大学</tag>
+        <tag>网络素养</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于TED大会</title>
+    <url>/3771463359/</url>
+    <content><![CDATA[<p>TED（指technology, entertainment, design在英语中的缩写，即技术、娱乐、设计）是美国的一家私有非营利机构，该机构以它组织的TED大会著称。TED诞生于1984年，其发起人是里查德•沃曼。2002年起，克里斯•安德森接管TED，创立了种子基金会（The Sapling Foundation），并营运TED大会。每年3月，TED大会在美国召集众多科学、设计、文学、音乐等领域的杰出人物，分享他们关于技术、社会、人的思考和探索。自2006年起，TED演讲的视频被上传到网上 ，地址：TED官网。</p>
+<p>介绍TED大会的理由：TED大会的演讲人选都是各个领域的杰出人物，思想碰撞方能产生火花，这些演讲者的思想与精神或许能给你带来不同层面的启发；一个观念的深入人心，其力量不可小觑。</p>
+]]></content>
+      <categories>
+        <category>大学生活</category>
+      </categories>
+      <tags>
+        <tag>大学</tag>
+        <tag>TED</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于社交观念</title>
+    <url>/1345586591/</url>
+    <content><![CDATA[<p>来大学之前，一定有不少人跟你说，人脉很重要，到了大学之后一定要广交朋友；许多书上、网上帖子里也有类似观点。你肯定心中会有所疑问：学习重要，还是经营人脉重要？那他们说的到底对不对呢？只能说是对了一小部分，最根本的并没有涉及到。人最怕被错误观念误导，因为你是在你的观念带领下行事的。我自身的体会是：自己的实力最重要，有实力者有魅力（这句话还是当年高中历史老师讲的，现在更深深体会到这句话的内涵了）。有关这个疑问的解答，极力推荐大家看一篇帖子，“学习重要，还是经营人脉重要？”这篇帖子对于“学习与经验人脉之间的关系”进行了辩证性回答，非常值得一看。</p>
+]]></content>
+      <categories>
+        <category>大学生活</category>
+      </categories>
+      <tags>
+        <tag>大学</tag>
+        <tag>社交观念</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>关于在线教育品牌</title>
+    <url>/3768944841/</url>
+    <content><![CDATA[<p>（一）基本介绍</p>
+<p>网易是互联网大佬中在线教育做的最好的一家，网易的在线教育分为网易公开课和网易云课堂，网易云课堂又引进了“中国大学MOOC”板块，做的很好，地址：网易云课堂。</p>
+<p>这里介绍“MOOC”这个名词。MOOC是Massive Online Open Course的简称，中文一般翻译成“大规模在线开放课程”。MOOC是世界名校开设的网络课程，老师专门为网络学生录制；有固定的开课时间，有作业有考试，考试通过后会授予证书；以下是它的合作伙伴：</p>
+<p>其中的“学堂在线”是由清华大学建设的，地址：MOOC学院。</p>
+<p>（二）网易云课堂与MOOC学院比较</p>
+<p>网易云课堂的用户体验做的很好，加载速度快，听课程序简便，不足之处是资源不太充足，但估计网易正在发力在线教育这块互联网蛋糕；MOOC学院的优点是资源非常充足，大家讨论的互动可能性也大；但个人体验过最大的缺点是：用户体验做的很差，程序繁琐，听课很不方便。</p>
+]]></content>
+      <categories>
+        <category>大学生活</category>
+      </categories>
+      <tags>
+        <tag>大学</tag>
+        <tag>教育品牌</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>养成好习惯终身受益</title>
+    <url>/3739369539/</url>
+    <content><![CDATA[<p>如果你充分利用了大学提供给你的条件，你的大学绝对精彩而充实。无论大学的好坏、重点与否，所有大学共通的一点是具备三个相同条件：1.大学图书馆；2.自习室；3.操场。它们依次对应的好习惯是：多读书、多思考、多锻炼。具备了能够持续革命的好身体之后，你需要做的就是养成批判性思维，使自己具备分析事物的能力。批判性思维和分析能力将使你终身受益，不论从事何种工作，因为你具备了“判断力”这一核心能力。</p>
+]]></content>
+      <categories>
+        <category>大学生活</category>
+      </categories>
+      <tags>
+        <tag>大学</tag>
+        <tag>习惯</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>感怀过去大可不必</title>
+    <url>/519929583/</url>
+    <content><![CDATA[<p>容易感怀的人，临近毕业季，观看各个学校拍的毕业光影，不自觉的对号入座。看着视频里那一张张纯真的笑脸、一幕幕闪过的大学光景，背景里播放着五月天的《星空》，总会有这种感觉：别人的大学才叫大学，过得有滋有味的；自己的大学咋这么索然无味。青春都被狗吃了。</p>
+<p>毕业季里的视频有以下共同特点：1.大学景色配上文字点缀；2.背景音乐大多选择青春气息歌曲，五月天是最常被选择的；3.挑选大学里的毕业生进行采访。毕业视频看后最大的感触就是：为什么别人都能找到团体，成群结伴的，而自己不论何种学习阶段皆是一人或几人？别人的大学生活过的总比自己精彩。每当毕业季看视频心底总会有感伤，感伤青春，感伤曾经，想着“要是大学能重来，我绝对要换个活法，像他们一样精彩”。</p>
+<p>但是这种想法只不过是你的愿望而已，根本不具有可能性；即使你有哆啦A梦可以坐着时光机回到过去，我敢打赌，你的改变不会太大，顶多是更加珍惜时间而已；社交该没有的依然没有；自习的继续自习。因为你的综合因素决定了你必须这么做。</p>
+<p>之所以选择了当初的生活方式和状态，是因为你的拥有、个性决定了你的做事风格。假使让你拥有你所羡慕的生活，不见得你会喜欢，很简单：因为不适合。</p>
+<p>安静、善良的性格让你周旋于灯红酒绿，穿梭于市场学校，谄媚于辅导员跟前，你会不自在的；因为你心底就讨厌那种人甚至看不起，随着你的长大、成熟，你可能对这种情况无所谓了，因为你明白了存在即是合理的，每个人的活法不一样。</p>
+<p>看着再好，不适合你的终究不适合。你唯一能做的就是按着自己认为舒服、正确的方式去努力提升自己，达到你认为的理想高度，过度感怀曾经只能让你止步不前。</p>
+]]></content>
+      <categories>
+        <category>大学生活</category>
+      </categories>
+      <tags>
+        <tag>大学</tag>
+        <tag>感怀</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>推荐书目</title>
+    <url>/302620460/</url>
+    <content><![CDATA[<p>这里推荐有关上大学的相关主题书四本，第一本： 卡尔•纽坡特著、赵娟译的《如何在大学里脱颖而出》；第二本：张志著《不要等到毕业以后》；第三本： 任羽中、张锐著的《完美大学必修课》；第四本：覃彪喜著《读大学究竟读什么》。这四本书是以推荐指数从高到低排列的，大家可以找来电子版阅读或到图书馆借阅实体书阅读。</p>
+]]></content>
+      <categories>
+        <category>大学生活</category>
+      </categories>
+      <tags>
+        <tag>大学</tag>
+        <tag>书目</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>最想告诉你一句话</title>
+    <url>/3970766941/</url>
+    <content><![CDATA[<p>“你未来想成为一个怎样的人”，这句话将需要你去花上四年的时间深入思考。大学四年是人一生中最重要的奠基期，他决定了你今后的人生走向。如果你考虑不清楚这个问题，这将会一直困惑着你，因为这是每个人必须面对、不可回避的人生课题。你在大学中必须思考自己今后走哪条路：商业、学术和仕途。不同的路径有不同的生活安排，要知道，现在的生活都是你自己当初的选择。定位准确，理性选择，人生才不会一直走偏。</p>
+<p>希望阅读到此书的你能有一个充实而有意义的大学生活。如果这本书能对你有一些帮助，那么我的写作目的便达到了。</p>
+<p>开学季，先恭喜顺利考入高校的小伙伴们，希望这本书能够陪伴大家走过人生最美的四个春夏秋冬。</p>
+]]></content>
+      <categories>
+        <category>大学生活</category>
+      </categories>
+      <tags>
+        <tag>大学</tag>
+        <tag>一句话</tag>
+      </tags>
+  </entry>
+</search>
