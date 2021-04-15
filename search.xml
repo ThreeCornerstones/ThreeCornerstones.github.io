@@ -1,21 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>google-search-way</title>
-    <url>/2799856088/</url>
-    <content><![CDATA[<h3 id="google-site-search-网站文章搜索"><a href="#google-site-search-网站文章搜索" class="headerlink" title="google site search 网站文章搜索"></a>google site search 网站文章搜索</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">site:https:&#x2F;&#x2F;developer.apple.com&#x2F; Architecture</span><br></pre></td></tr></table></figure>
-
-<h3 id="google-site-article-title-search-网站文章标题搜索"><a href="#google-site-article-title-search-网站文章标题搜索" class="headerlink" title="google site article title search 网站文章标题搜索"></a>google site article title search 网站文章标题搜索</h3>]]></content>
-      <categories>
-        <category>tools</category>
-      </categories>
-      <tags>
-        <tag>tools</tag>
-        <tag>google</tag>
-        <tag>search</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/1243066710/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -32,6 +17,47 @@
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>google-search-way</title>
+    <url>/2799856088/</url>
+    <content><![CDATA[<h3 id="google-site-search-网站文章搜索"><a href="#google-site-search-网站文章搜索" class="headerlink" title="google site search 网站文章搜索"></a>google site search 网站文章搜索</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">site:https:&#x2F;&#x2F;developer.apple.com&#x2F; Architecture</span><br></pre></td></tr></table></figure>
+
+<h3 id="google-site-article-title-search-网站文章标题搜索"><a href="#google-site-article-title-search-网站文章标题搜索" class="headerlink" title="google site article title search 网站文章标题搜索"></a>google site article title search 网站文章标题搜索</h3>]]></content>
+      <categories>
+        <category>tools</category>
+      </categories>
+      <tags>
+        <tag>tools</tag>
+        <tag>google</tag>
+        <tag>search</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>jailbreak command</title>
+    <url>/16073915/</url>
+    <content><![CDATA[<h3 id="连接到iphone"><a href="#连接到iphone" class="headerlink" title="连接到iphone"></a>连接到iphone</h3><ul>
+<li><p>拷贝</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">通过usb端口进行映射拷贝</span><br><span class="line">scp -P 10010 ~&#x2F;Desktop&#x2F;1.txt root@localhost:~&#x2F;test</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>登录</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">初始密码 alpine</span><br><span class="line"></span><br><span class="line">通过usb端口进行映射登录</span><br><span class="line">ssh root@localhost -p 10010</span><br><span class="line">ssh root@127.0.0.1 -p 10010</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>映射</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">在客户端执行，这里是mac电脑</span><br><span class="line">python tcprelay.py -t 22:10010</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>密钥登录环境配置</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">先查看服务端iPhone的密钥是否配置</span><br><span class="line">路径是：~&#x2F;.ssh&#x2F;authorized_keys</span><br><span class="line">如果你确定有这个文件，可以使用直接查看命令：vim ~&#x2F;.ssh&#x2F;authorized_keys</span><br><span class="line"></span><br><span class="line">第一步：</span><br><span class="line">在客户端生成公钥和私钥，这里是mac</span><br><span class="line">命令：ssh-keygen</span><br><span class="line">生成的公钥路径：~&#x2F;.ssh&#x2F;id_rsa.pub</span><br><span class="line">生成的私钥路径：~&#x2F;.ssh&#x2F;id_rsa</span><br><span class="line"></span><br><span class="line">第二步：</span><br><span class="line">复制客户端的公钥到服务器某路径（通过wifi拷贝）</span><br><span class="line">scp ~&#x2F;.ssh&#x2F;id_rsa.pub root@localhost </span><br><span class="line">通过usb拷贝到服务器iPhone的</span><br><span class="line">scp -P 10010 ~&#x2F;.ssh&#x2F;id_rsa.pub root@localhost:~</span><br><span class="line"></span><br><span class="line">第三步：</span><br><span class="line">追加公钥内容到授权文件尾部</span><br><span class="line">cat ~&#x2F;id_rsa.pub &gt;&gt; ~&#x2F;.ssh&#x2F;authorized_keys</span><br><span class="line"></span><br></pre></td></tr></table></figure></li>
+</ul>
+]]></content>
+      <categories>
+        <category>tools</category>
+      </categories>
+      <tags>
+        <tag>tools</tag>
+        <tag>jailbreak</tag>
+        <tag>syntax</tag>
+      </tags>
   </entry>
   <entry>
     <title>markdown md syntax</title>
@@ -61,8 +87,8 @@
       </categories>
       <tags>
         <tag>tools</tag>
-        <tag>markdown</tag>
         <tag>syntax</tag>
+        <tag>markdown</tag>
       </tags>
   </entry>
   <entry>
@@ -162,6 +188,10 @@
     <url>/547332078/</url>
     <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo new [layout] &lt;title&gt;</span><br><span class="line"></span><br><span class="line">hexo publish [layout] &lt;title&gt;</span><br><span class="line"></span><br><span class="line">git clone https:&#x2F;&#x2F;github.com&#x2F;theme-next&#x2F;hexo-theme-next themes&#x2F;next</span><br></pre></td></tr></table></figure>
 
+<h3 id="hexo-theme-十大排名"><a href="#hexo-theme-十大排名" class="headerlink" title="hexo theme 十大排名"></a>hexo theme 十大排名</h3><ul>
+<li><a href="https://github.com/ppoffice/hexo-theme-icarus">https://github.com/ppoffice/hexo-theme-icarus</a></li>
+<li><a href="https://github.com/Ailln/awesome-hexo-theme">https://github.com/Ailln/awesome-hexo-theme</a></li>
+</ul>
 <h3 id="CDN加速的作用"><a href="#CDN加速的作用" class="headerlink" title="CDN加速的作用"></a>CDN加速的作用</h3><ul>
 <li>CDN加速可以提升网站的打开速度及用户下载资源的速度</li>
 </ul>
@@ -298,10 +328,9 @@
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ git config --global user.name &quot;Bob&quot;</span><br><span class="line">$ git config --global user.email &quot;bob@example.com&quot;</span><br></pre></td></tr></table></figure>
 
 <ul>
-<li><p>you’ll need to remove authorization info from Keychain. This is something I’ve also struggled with until I found that I also had certificate in my Keychain.</p>
-</li>
-<li><p>Open up Keychain access, click on All Items and search for git. You will get some items like this:搜索所以github的删除</p>
-</li>
+<li>you’ll need to remove authorization info from Keychain. This is something I’ve also struggled with until I found that I also had certificate in my Keychain.</li>
+<li>到钥匙串闪删除关于github的证书</li>
+<li>Open up Keychain access, click on All Items and search for git. You will get some items like this:搜索所以github的删除</li>
 </ul>
 <h3 id="hexo-next-seo"><a href="#hexo-next-seo" class="headerlink" title="hexo next seo"></a>hexo next seo</h3><h4 id="seo-添加站点地图"><a href="#seo-添加站点地图" class="headerlink" title="seo 添加站点地图"></a>seo 添加站点地图</h4><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-sitemap --save</span><br><span class="line">npm install hexo-generator-baidu-sitemap --save</span><br></pre></td></tr></table></figure>
 

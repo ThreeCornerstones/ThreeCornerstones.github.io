@@ -95,6 +95,29 @@
   </entry>
   
   <entry>
+    <title>jailbreak command</title>
+    <link href="https://threecornerstones.github.io/16073915/"/>
+    <id>https://threecornerstones.github.io/16073915/</id>
+    <published>2020-11-21T08:01:10.000Z</published>
+    <updated>2021-04-15T15:13:56.586Z</updated>
+    
+    
+    <summary type="html">越狱常用命令</summary>
+    
+    
+    
+    <category term="tools" scheme="https://threecornerstones.github.io/categories/tools/"/>
+    
+    
+    <category term="tools" scheme="https://threecornerstones.github.io/tags/tools/"/>
+    
+    <category term="jailbreak" scheme="https://threecornerstones.github.io/tags/jailbreak/"/>
+    
+    <category term="syntax" scheme="https://threecornerstones.github.io/tags/syntax/"/>
+    
+  </entry>
+  
+  <entry>
     <title>markdown md syntax</title>
     <link href="https://threecornerstones.github.io/127276987/"/>
     <id>https://threecornerstones.github.io/127276987/</id>
@@ -111,9 +134,9 @@
     
     <category term="tools" scheme="https://threecornerstones.github.io/tags/tools/"/>
     
-    <category term="markdown" scheme="https://threecornerstones.github.io/tags/markdown/"/>
-    
     <category term="syntax" scheme="https://threecornerstones.github.io/tags/syntax/"/>
+    
+    <category term="markdown" scheme="https://threecornerstones.github.io/tags/markdown/"/>
     
   </entry>
   
@@ -151,7 +174,7 @@
     <link href="https://threecornerstones.github.io/547332078/"/>
     <id>https://threecornerstones.github.io/547332078/</id>
     <published>2020-11-18T04:35:53.000Z</published>
-    <updated>2020-11-28T09:36:52.073Z</updated>
+    <updated>2020-11-30T13:41:42.025Z</updated>
     
     
     <summary type="html">hexo seo 常见优化方法，hexo搭建指南，hexo操作手册，记录常见的问题，遇到就记录了下来，这不是重复记录，是自己的心得。</summary>
